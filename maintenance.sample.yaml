@@ -1,7 +1,7 @@
 ---
 
 maintenance_list:
-    - breaks: ["2200-2359,5", "1200-1300"]
+    - breaks: ["2200-2359:6", "1200-1300"]
       symbols: ["FX_IDC:AUDCAD"]
       disable: ["realtime_test"]
 
