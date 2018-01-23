@@ -1,11 +1,14 @@
 ---
 
 maintenance_list:
-    - expiration: "2018-12-01 00:00:00"
-      # expiration_start: "2018-11-01 00:00:00"
-      symbols: ["FX:*", "NASDAQ:AAPL"]
-      disable: ["realtime_test"]
-
-    - period: ["2200-2359,5", "1200-1300"]
+    - breaks: ["2200-2359,5", "1200-1300"]
       symbols: ["FX_IDC:AUDCAD"]
       disable: ["realtime_test"]
+
+    - symbols: ["FX_IDC:*"]
+      dates: ["2018-02-15", "2018-05-20", "2018-11-10,1500-1700"]
+      disable: ["realtime_test"]
+
+    - symbols: ["KRAKEN:*"]
+      expiration_utc: "2018-01-23 06:00:00"
+      disable: ["realtime_test", "history_test"]
