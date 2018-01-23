@@ -1,6 +1,6 @@
 # Inspector maintenance
 
-Конфигурация для выключения тех или иных проверок для всех инспекторов. Пример конфигурации лежит в файле [maintenance.sample.yaml](https://xgit.tradingview.com/amerzlenko/inspector-maintenance/blob/master/maintenance.sample.yaml). Сама конфигурация, используемая в продакшене описывается в файле [maintenance.yaml](https://xgit.tradingview.com/amerzlenko/inspector-maintenance/blob/master/maintenance.yaml).
+Конфигурация для выключения тех или иных проверок для всех инспекторов. Пример конфигурации лежит в файле [maintenance.sample.yaml](https://xgit.tradingview.com/tv/inspector-maintenance/blob/master/maintenance.sample.yaml). Сама конфигурация, используемая в продакшене описывается в файле [maintenance.yaml](https://xgit.tradingview.com/tv/inspector-maintenance/blob/master/maintenance.yaml).
 
 ## Описание конфигурации
 
