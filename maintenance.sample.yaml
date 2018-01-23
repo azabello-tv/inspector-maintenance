@@ -6,7 +6,7 @@ maintenance_list:
       disable: ["realtime_test"]
 
     - symbols: ["FX_IDC:*"]
-      dates: ["2018-02-15", "2018-05-20", "2018-11-10,1500-1700"]
+      dates: ["2018-02-15", "2018-05-20", "2018-11-10/1500-1700"]
       disable: ["realtime_test"]
 
     - symbols: ["KRAKEN:*"]
