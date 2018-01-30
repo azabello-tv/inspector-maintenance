@@ -1,3 +1,6 @@
 ---
 
-maintenance_list: []
+maintenance_list:
+    - symbols: ["FX_IDC:*"]
+      dates: ["2018-01-30"]
+      disable: ["realtime_test"]
