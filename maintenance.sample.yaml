@@ -12,3 +12,7 @@ maintenance_list:
     - symbols: ["KRAKEN:*"]
       expiration_utc: "2018-01-23 06:00:00"
       disable: ["realtime_test", "history_test"]
+
+    - symbols: ["BITFINEX:*"]
+      expiration_utc: "2018-01-23 06:00:00"
+      disable: ["realtime_test", "history_test"]
