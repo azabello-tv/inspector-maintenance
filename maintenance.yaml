@@ -3,4 +3,4 @@
 maintenance_list:
     - symbols: ["FX_IDC:*", "FX:*"]
       expiration_utc: "2018-02-30 01:00:00"
-      disable: ["realtime_test"]
+      disable: ["realtime_test", "fxcm_realtime_test", "udf_realtime_test"]
