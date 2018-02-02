@@ -1,7 +1,6 @@
 ---
 
 maintenance_list:
-    - symbols: ["FX_IDC:*"]
-      dates: ["2018-01-30"]
-      expiration_utc: "2018-01-30 01:00:00"
+    - symbols: ["FX_IDC:*", "FX:*"]
+      expiration_utc: "2018-02-30 01:00:00"
       disable: ["realtime_test"]
