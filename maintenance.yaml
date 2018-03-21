@@ -16,3 +16,7 @@ maintenance_list:
     - symbols: ["BITSO:*"]
       expiration_utc: "2018-03-21 14:00:00"
       disable: ["realtime_test"]
+
+    - symbols: ["GOCIO:*"]
+      expiration_utc: "2018-03-21 14:00:00"
+      disable: ["realtime_test"]
