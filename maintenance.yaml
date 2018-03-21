@@ -4,3 +4,15 @@ maintenance_list:
     - symbols: ["FX_IDC:*", "FX:*"]
       expiration_utc: "2018-01-30 01:00:00"
       disable: ["realtime_test", "fxcm_realtime_test", "udf_realtime_test"]
+
+    - symbols: ["BITFINEX:*"]
+      expiration_utc: "2018-03-21 14:00:00"
+      disable: ["realtime_test"]
+
+    - symbols: ["BITFLYER:*"]
+      expiration_utc: "2018-03-21 14:00:00"
+      disable: ["realtime_test"]
+
+    - symbols: ["BITSO:*"]
+      expiration_utc: "2018-03-21 14:00:00"
+      disable: ["realtime_test"]
