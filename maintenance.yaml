@@ -20,3 +20,7 @@ maintenance_list:
     - symbols: ["NSENG:*"]
       expiration_utc: "2018-03-31 23:00:00"
       disable: ["realtime_test", "realtime_test_slow"]
+
+    - symbols: ["FX:*"]
+      expiration_utc: "2018-03-31 23:00:00"
+      disable: ["realtime_test", "realtime_test_slow"]
