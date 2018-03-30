@@ -1,12 +1,12 @@
 ---
 
 maintenance_list:
-    - symbols: ["BITFINEX:*"]
-      expiration_utc: "2018-03-21 14:00:00"
+    - symbols: ["EURONEXT:*"]
+      expiration_utc: "2018-03-31 23:00:00"
       disable: ["realtime_test", "realtime_test_slow"]
 
-    - symbols: ["BITFLYER:*"]
-      expiration_utc: "2018-03-21 14:00:00"
+    - symbols: ["TVC:*"]
+      expiration_utc: "2018-03-31 23:00:00"
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["FOREXCOM:NSXUSD"]
