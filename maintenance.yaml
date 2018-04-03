@@ -2,25 +2,31 @@
 
 maintenance_list:
     - symbols: ["EURONEXT:*"]
-      expiration_utc: "2018-04-02 23:00:00"
+      dates: ["2018-04-02"]
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["TVC:*"]
-      expiration_utc: "2018-04-02 23:00:00"
+      dates: ["2018-04-02"]
       disable: ["realtime_test", "realtime_test_slow"]
 
+    - symbols: ["TVC:DEU30"]
+      dates: ["2018-04-02", "2018-05-01", "2018-05-21", "2018-10-03", "2018-12-24", "2018-12-25", "2018-12-26", "2018-12-31"]
+      disable: ["realtime_test", "realtime_test_slow"]
+      # http://www.xetra.com/xetra-en/newsroom/trading-calendar
+
     - symbols: ["FOREXCOM:NSXUSD"]
-      expiration_utc: "2018-03-31 23:00:00"
+      dates: ["2018-03-31"]
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["FOREXCOM:XAUUSD"]
-      expiration_utc: "2018-03-31 23:00:00"
+      dates: ["2018-03-31"]
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["NSENG:*"]
-      expiration_utc: "2018-04-02 23:00:00"
+      dates: ["2018-04-02", "2018-05-01", "2018-05-29", "2018-06-15", "2018-06-16", "2018-08-21", "2018-08-22", "2018-10-01", "2018-11-20", "2018-12-25", "2018-12-26"]
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["FX:*"]
-      expiration_utc: "2018-04-02 23:00:00"
+      dates: ["2018-04-02"]
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
+
