@@ -50,3 +50,7 @@ maintenance_list:
       expiration_utc: "2018-04-11 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
+    - symbols: ["CEXIO:*"]
+      expiration_utc: "2018-04-11 16:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
+
