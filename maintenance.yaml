@@ -57,3 +57,7 @@ maintenance_list:
     - symbols: ["OKCOIN:BTCUSD"]
       expiration_utc: "2018-04-12 12:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
+
+    - symbols: ["NASDAQ:*"]
+      dates: ["2018-04-17"]
+      disable: ["realtime_test", "realtime_test_slow"]
