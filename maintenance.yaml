@@ -63,6 +63,3 @@ maintenance_list:
       expiration_utc: "2018-04-12 12:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
-    - symbols: ["NASDAQ:*"]
-      breaks: ["1000-1100"]
-      disable: ["realtime_test", "realtime_test_slow"]
