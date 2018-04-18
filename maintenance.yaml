@@ -9,6 +9,11 @@ maintenance_list:
       dates: ["2018-04-02"]
       disable: ["realtime_test", "realtime_test_slow"]
 
+    - symbols: ["BITFINEX:*"]
+      expiration_utc: "2018-04-18 15:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
+
+
     - symbols: ["TVC:DEU30"]
       dates: ["2018-04-02", "2018-05-01", "2018-05-21", "2018-10-03", "2018-12-24", "2018-12-25", "2018-12-26", "2018-12-31"]
       disable: ["realtime_test", "realtime_test_slow"]
