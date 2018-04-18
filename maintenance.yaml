@@ -64,5 +64,5 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["NASDAQ:*"]
-      breaks: ["1200-1300"]
+      breaks: ["1000-1100"]
       disable: ["realtime_test", "realtime_test_slow"]
