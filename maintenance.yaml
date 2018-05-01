@@ -69,3 +69,12 @@ maintenance_list:
     - symbols: ["NYMEX:KA*"]
       expiration_utc: "2018-04-26 12:00:00"
       disable: ["history_test"]
+
+    - symbols: ["FTSEMYX:FBMKLCI*"]
+      expiration_utc: "2018-05-02 01:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+      
+    - symbols: ["MYX:FINANCE*"]
+      expiration_utc: "2018-05-02 01:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+      
