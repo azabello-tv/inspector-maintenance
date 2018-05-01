@@ -78,3 +78,7 @@ maintenance_list:
       expiration_utc: "2018-05-02 01:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
+    - symbols: ["TVC:DEU30"]
+      expiration_utc: "2018-05-02 09:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+      # Разобраться почему не сработал глобальный maintenance и удалить этот.
