@@ -71,11 +71,11 @@ maintenance_list:
       disable: ["history_test"]
 
     - symbols: ["FTSEMYX:*"]
-      expiration_utc: "2018-05-02 01:00:00"
+      expiration_utc: "2018-05-10 01:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
     - symbols: ["MYX:*"]
-      expiration_utc: "2018-05-02 01:00:00"
+      expiration_utc: "2018-05-10 01:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
     - symbols: ["TVC:*"]
