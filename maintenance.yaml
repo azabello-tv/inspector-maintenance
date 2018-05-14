@@ -94,3 +94,6 @@ maintenance_list:
       expiration_utc: "2018-05-11 05:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       # Разобраться почему не сработал глобальный maintenance и удалить этот.
+    - symbols: ["CBOE:VIX"]
+      expiration_utc: "2018-05-17 05:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
