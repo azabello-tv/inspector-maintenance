@@ -10,7 +10,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["CBOE:VIX"]
-      expiration_utc: "2018-05-13 12:00:00"
+      expiration_utc: "2018-05-21 12:00:00"
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test"]
 
     - symbols: ["NASDAQ:IXIC"]
