@@ -101,3 +101,8 @@ maintenance_list:
     - symbols: ["CBOE:VIX"]
       expiration_utc: "2018-05-17 05:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+
+    - symbols: ["XETR:*"]
+      expiration_utc: "2018-05-22 09:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+
