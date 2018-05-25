@@ -29,6 +29,7 @@ maintenance_list:
       dates: ["2018-04-02", "2018-05-01", "2018-05-21", "2018-10-03", "2018-12-24", "2018-12-25", "2018-12-26", "2018-12-31"]
       disable: ["realtime_test", "realtime_test_slow"]
       # http://www.xetra.com/xetra-en/newsroom/trading-calendar
+      # если будет стрелять TVC:DEU30, то знайте, это он 
 
     - symbols: ["FOREXCOM:NSXUSD"]
       dates: ["2018-03-31"]
@@ -105,4 +106,7 @@ maintenance_list:
     - symbols: ["XETR:*"]
       expiration_utc: "2018-05-22 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
-
+    
+    - symbols: ["BINANCE:*"]
+      expiration_utc: "2018-05-25 11:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
