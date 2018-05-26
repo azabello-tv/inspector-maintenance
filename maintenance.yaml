@@ -110,3 +110,7 @@ maintenance_list:
     - symbols: ["BINANCE:*"]
       expiration_utc: "2018-05-25 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+    
+     - symbols: ["CRAINS:*"]
+      expiration_utc: "2018-05-25 11:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]  
