@@ -118,3 +118,7 @@ maintenance_list:
     - symbols: ["INDEX:ENTREPRENEUR"]
       expiration_utc: "2018-05-29 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
+      
+    - symbols: ["COINBASE:*"]
+      expiration_utc: "2018-06-04 06:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
