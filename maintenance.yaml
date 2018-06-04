@@ -119,6 +119,6 @@ maintenance_list:
       expiration_utc: "2018-05-29 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
       
-    - symbols: ["BVC_IGBC"]
+    - symbols: ["BVC:IGBC"]
       expiration_utc: "2018-06-05 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
