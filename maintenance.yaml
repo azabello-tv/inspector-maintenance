@@ -139,3 +139,11 @@ maintenance_list:
     - symbols: ["POLONIEX:XEMUSD"]
       expiration_utc: "2018-06-05 13:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
+
+    - symbols: ["POLONIEX:ETHUSD"]
+      expiration_utc: "2018-06-05 13:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
+
+    - symbols: ["GOCIO:LTCUSD"]
+      expiration_utc: "2018-06-05 13:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
