@@ -121,15 +121,15 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["BITTREX:DASHUSD"]
-      expiration_utc: "2018-06-05 13:00:00"
+      expiration_utc: "2018-06-05 19:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["BITTREX:OMGUSD"]
-      expiration_utc: "2018-06-05 13:00:00"
+      expiration_utc: "2018-06-05 19:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["BITFLYER:ETHUSD"]
-      expiration_utc: "2018-06-05 13:00:00"
+      expiration_utc: "2018-06-05 19:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["POLONIEX:*"]
@@ -137,13 +137,13 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["POLONIEX:XEMUSD"]
-      expiration_utc: "2018-06-05 13:00:00"
+      expiration_utc: "2018-06-05 19:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["POLONIEX:ETHUSD"]
-      expiration_utc: "2018-06-05 13:00:00"
+      expiration_utc: "2018-06-05 19:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["GOCIO:LTCUSD"]
-      expiration_utc: "2018-06-05 13:00:00"
+      expiration_utc: "2018-06-05 19:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
