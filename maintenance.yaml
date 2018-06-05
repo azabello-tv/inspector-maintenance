@@ -147,3 +147,11 @@ maintenance_list:
     - symbols: ["GOCIO:LTCUSD"]
       expiration_utc: "2018-06-05 19:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
+      
+     - symbols: ["XCOIN:BTCKRW"]
+      expiration_utc: "2018-06-05 19:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
+    
+    - symbols: ["KORBIT:*"]
+      expiration_utc: "2018-06-05 19:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]  
