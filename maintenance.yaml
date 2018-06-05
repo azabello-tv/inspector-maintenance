@@ -94,10 +94,6 @@ maintenance_list:
     - symbols: ["TVC:*"]
       expiration_utc: "2018-05-02 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
-
-    - symbols: ["CEXIO:*"]
-      expiration_utc: "2018-06-05 12:00:00"
-      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
     - symbols: ["IDX:*"]
       dates: ["2018-05-29", "2018-06-01"]
