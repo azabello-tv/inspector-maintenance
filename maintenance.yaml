@@ -128,6 +128,10 @@ maintenance_list:
       expiration_utc: "2018-06-05 19:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
+    - symbols: ["BITTREX:TUSDUS*"]
+      expiration_utc: "2018-06-14 09:00:00"
+      disable: ["history_test"]
+
     - symbols: ["BITFLYER:ETHUSD"]
       expiration_utc: "2018-06-05 19:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
