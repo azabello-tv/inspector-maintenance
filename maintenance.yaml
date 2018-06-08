@@ -120,10 +120,6 @@ maintenance_list:
       expiration_utc: "2018-06-6 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
-    - symbols: ["BITFLYER:*"]
-      expiration_utc: "2018-06-08 09:00:00"
-      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
-
     - symbols: ["BITTREX:DASHUSD"]
       expiration_utc: "2018-06-05 19:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
@@ -172,7 +168,4 @@ maintenance_list:
       expiration_utc: "2018-06-08 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
-    - symbols: ["THEROCKTRADING:BTCEUR"]
-      expiration_utc: "2018-06-08 09:00:00"
-      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
