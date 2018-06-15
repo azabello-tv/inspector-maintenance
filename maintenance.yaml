@@ -60,11 +60,11 @@ maintenance_list:
       disable: ["history_test"]
 
     - symbols: ["FTSEMYX:*"]
-      dates: ["2018-05-29", "2018-05-31", "2018-06-01"]
+      expiration_utc: "2018-06-16 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
     - symbols: ["MYX:*"]
-      dates: ["2018-05-29", "2018-05-31", "2018-06-01"]
+      expiration_utc: "2018-06-16 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
     - symbols: ["TVC:*"]
