@@ -196,6 +196,6 @@ maintenance_list:
       breaks: ["1130-1300"] # ежедневный перерыв на ланч
       disable: ["realtime_test", "realtime_test_slow"]
     
-    - symbols: ["TSXV:;"]
+    - symbols: ["TSXV:*"]
       expiration_utc: "2018-06-22 13:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"] 
