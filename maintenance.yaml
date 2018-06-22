@@ -190,4 +190,8 @@ maintenance_list:
     
     - symbols: ["BITFINEX:AUCBTC"]
       expiration_utc: "2018-06-26 06:10:00"
-      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]  
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"] 
+
+    - symbols: ["HOSE:*"]
+      breaks: ["1130-1300"] # ежедневный перерыв на ланч
+      disable: ["realtime_test", "realtime_test_slow"]
