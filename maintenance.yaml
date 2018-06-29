@@ -208,3 +208,11 @@ maintenance_list:
     - symbols: ["IBROKER:*"]
       expiration_utc: "2058-06-25 09:10:00"
       disable: ["symbol_search_test"]
+      
+    - symbols: ["HITBTC:DOGEUSD"]
+      expiration_utc: "2018-07-02 09:10:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"] 
+      
+    - symbols: ["HITBTC:WAVESUSD"]
+      expiration_utc: "2018-07-02 09:10:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]  
