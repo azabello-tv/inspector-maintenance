@@ -204,6 +204,9 @@ maintenance_list:
       expiration_utc: "2018-06-25 13:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
+    - symbols: ["MYX:*"]
+      expiration_utc: "2018-07-02 07:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["IBROKER:*"]
       expiration_utc: "2058-06-25 09:10:00"
