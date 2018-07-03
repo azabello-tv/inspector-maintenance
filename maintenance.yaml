@@ -240,4 +240,6 @@ maintenance_list:
       expiration_utc: "2018-07-02 09:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]  
       
-      
+    - symbols: ["TVC:*"]
+      expiration_utc: "2018-07-03 21:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"] 
