@@ -239,5 +239,8 @@ maintenance_list:
     - symbols: ["HITBTC:WAVESUSD"]
       expiration_utc: "2018-07-02 09:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]  
-      
+    
+    - symbols: ["SP:*"]
+      expiration_utc: "2018-07-04 09:10:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"] 
     
