@@ -199,6 +199,10 @@ maintenance_list:
     - symbols: ["TVC:HSI"]
       breaks: ["1200-1300"] # ежедневный перерыв на ланч
       disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["MOEX:*"]
+      breaks: ["1359-1405","1845-1900"] # перерывы для фьючерсов
+      disable: ["realtime_test", "realtime_test_slow"]
     
     - symbols: ["TSXV:*"]
       expiration_utc: "2018-06-25 13:10:00"
