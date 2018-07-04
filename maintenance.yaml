@@ -242,5 +242,10 @@ maintenance_list:
     
     - symbols: ["SP:*"]
       expiration_utc: "2018-07-04 09:10:00"
-      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"] 
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
+      
+    - symbols: ["BINANCE:*"]
+      expiration_utc: "2018-07-05 11:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+      
     
