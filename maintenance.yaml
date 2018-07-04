@@ -24,12 +24,12 @@ maintenance_list:
       # если будет стрелять TVC:DEU30, то знайте, это он 
 
     - symbols: ["FOREXCOM:NSXUSD"]
-      dates: ["2018-05-29"]
+      dates: ["2018-07-29"]
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["FOREXCOM:XAUUSD"]
-      dates: ["2018-05-29"]
-      disable: ["realtime_test", "realtime_test_slow"]
+      expiration_utc: "2018-07-04 07:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
     - symbols: ["NSENG:*"]
       dates: ["2018-04-02", "2018-05-01", "2018-05-29", "2018-06-15", "2018-06-16", "2018-08-21", "2018-08-22", "2018-10-01", "2018-11-20", "2018-12-25", "2018-12-26"]
