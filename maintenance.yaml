@@ -36,7 +36,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["FX:*"]
-      dates: ["2018-04-02"]
+      expiration_utc: "2018-07-04 23:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["GOCIO:*"]
