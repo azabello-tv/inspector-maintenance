@@ -34,6 +34,35 @@ maintenance_list:
     - symbols: ["NSENG:*"]
       dates: ["2018-04-02", "2018-05-01", "2018-05-29", "2018-06-15", "2018-06-16", "2018-08-21", "2018-08-22", "2018-10-01", "2018-11-20", "2018-12-25", "2018-12-26"]
       disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["BATS:MSFT"]
+      expiration_utc: "2018-07-04 23:10:00"
+      disable: ["realtime_test", "realtime_test_slow"]
+
+    - symbols: ["NASDAQ:MSFT"]
+      expiration_utc: "2018-07-04 23:10:00"
+      disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["NYSE:A"]
+      expiration_utc: "2018-07-04 23:10:00"
+      disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["CME_MINI:ES1!"]
+      expiration_utc: "2018-07-04 23:10:00"
+      disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["CME_MINI_DL:ES1!"]
+      expiration_utc: "2018-07-04 23:10:00"
+      disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["NYMEX:NG1!"]
+      expiration_utc: "2018-07-04 23:10:00"
+      disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["CBOT_MINI:YM1!"]
+      expiration_utc: "2018-07-04 23:10:00"
+      disable: ["realtime_test", "realtime_test_slow"]
+      
 
     - symbols: ["FX:*"]
       expiration_utc: "2018-07-04 23:10:00"
