@@ -138,7 +138,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["BITSO:ETHUSD"]
-      expiration_utc: "2018-06-05 19:00:00"
+      expiration_utc: "2018-07-05 19:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["BITSO:*"]
