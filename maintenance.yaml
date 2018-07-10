@@ -142,7 +142,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["BITSO:*"]
-      expiration_utc: "2018-06-10 09:00:00"
+      expiration_utc: "2018-07-10 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["BITTREX:*"]
