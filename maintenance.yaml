@@ -130,7 +130,7 @@ maintenance_list:
 
 # Bitfinex and related
     - symbols: ["BITFINEX:*"]
-      expiration_utc: "2018-04-18 15:00:00"
+      expiration_utc: "2018-07-12 15:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["BITFLYE:*"]
