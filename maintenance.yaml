@@ -73,7 +73,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["CEXIO:*"]
-      expiration_utc: "2018-04-20 16:00:00"
+      expiration_utc: "2018-07-15 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["OKCOIN:BTCUSD"]
