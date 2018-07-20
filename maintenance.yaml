@@ -128,6 +128,10 @@ maintenance_list:
       expiration_utc: "2018-06-05 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
 
+    - symbols: ["BVC:*"]
+      expiration_utc: "2018-07-21 09:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
+
 # Bitfinex and related
     - symbols: ["BITFINEX:*"]
       expiration_utc: "2018-07-12 15:00:00"
@@ -276,5 +280,3 @@ maintenance_list:
     - symbols: ["BINANCE:*"]
       expiration_utc: "2018-07-05 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
-      
-    
