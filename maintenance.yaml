@@ -28,15 +28,44 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["FOREXCOM:XAUUSD"]
-      dates: ["2018-05-29"]
-      disable: ["realtime_test", "realtime_test_slow"]
+      expiration_utc: "2018-07-04 07:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
     - symbols: ["NSENG:*"]
       dates: ["2018-04-02", "2018-05-01", "2018-05-29", "2018-06-15", "2018-06-16", "2018-08-21", "2018-08-22", "2018-10-01", "2018-11-20", "2018-12-25", "2018-12-26"]
       disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["BATS:MSFT"]
+      expiration_utc: "2018-07-04 23:10:00"
+      disable: ["realtime_test", "realtime_test_slow"]
+
+    - symbols: ["NASDAQ:MSFT"]
+      expiration_utc: "2018-07-04 23:10:00"
+      disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["NYSE:A"]
+      expiration_utc: "2018-07-04 23:10:00"
+      disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["CME_MINI:ES1!"]
+      expiration_utc: "2018-07-04 23:10:00"
+      disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["CME_MINI_DL:ES1!"]
+      expiration_utc: "2018-07-04 23:10:00"
+      disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["NYMEX:NG1!"]
+      expiration_utc: "2018-07-04 23:10:00"
+      disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["CBOT_MINI:YM1!"]
+      expiration_utc: "2018-07-04 23:10:00"
+      disable: ["realtime_test", "realtime_test_slow"]
+      
 
     - symbols: ["FX:*"]
-      dates: ["2018-04-02"]
+      expiration_utc: "2018-07-04 23:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["GOCIO:*"]
@@ -44,7 +73,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["CEXIO:*"]
-      expiration_utc: "2018-04-20 16:00:00"
+      expiration_utc: "2018-07-15 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["OKCOIN:BTCUSD"]
@@ -84,7 +113,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
     
     - symbols: ["BINANCE:*"]
-      expiration_utc: "2018-05-25 11:00:00"
+      expiration_utc: "2018-07-05 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
     
     - symbols: ["CRAINS:OHIO"]
@@ -105,7 +134,7 @@ maintenance_list:
 
 # Bitfinex and related
     - symbols: ["BITFINEX:*"]
-      expiration_utc: "2018-04-18 15:00:00"
+      expiration_utc: "2018-07-12 15:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["BITFLYE:*"]
@@ -113,12 +142,12 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["BITSO:ETHUSD"]
-      expiration_utc: "2018-06-05 19:00:00"
+      expiration_utc: "2018-07-05 19:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["BITSO:*"]
-      expiration_utc: "2018-04-11 11:00:00"
-      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
+      expiration_utc: "2018-07-10 09:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["BITTREX:*"]
       expiration_utc: "2018-06-6 09:00:00"
@@ -203,6 +232,10 @@ maintenance_list:
     - symbols: ["TVC:HSI"]
       breaks: ["1200-1300"] # ежедневный перерыв на ланч
       disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["MOEX:*"]
+      breaks: ["1359-1405","1845-1900"] # перерывы для фьючерсов
+      disable: ["realtime_test", "realtime_test_slow"]
     
     - symbols: ["TSXV:*"]
       expiration_utc: "2018-06-25 13:10:00"
@@ -213,7 +246,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
       
     - symbols: ["CEXIO:GHSUSD"]
-      expiration_utc: "2018-07-01 09:00:00"
+      expiration_utc: "2018-07-18 10:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
       
     - symbols: ["BMV:IM"]
@@ -238,4 +271,12 @@ maintenance_list:
       
     - symbols: ["HITBTC:WAVESUSD"]
       expiration_utc: "2018-07-02 09:10:00"
-      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"] 
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]  
+    
+    - symbols: ["SP:*"]
+      expiration_utc: "2018-07-04 09:10:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
+      
+    - symbols: ["BINANCE:*"]
+      expiration_utc: "2018-07-05 11:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
