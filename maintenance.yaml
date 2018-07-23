@@ -93,7 +93,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
     - symbols: ["MYX:*"]
-      expiration_utc: "2018-06-16 01:00:00"
+      expiration_utc: "2018-07-23 10:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
     - symbols: ["TVC:*"]
