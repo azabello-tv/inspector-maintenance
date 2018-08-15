@@ -295,3 +295,11 @@ maintenance_list:
     - symbols: ["JSE:*"]
       expiration_utc: "2018-08-10 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]  
+      
+    - symbols: ["KCBT:KEU2018"]
+      expiration_utc: "2018-09-10 10:15:00"
+      disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]
+
+    - symbols: ["ICEUSA:CTV2018"]
+      expiration_utc: "2018-09-10 10:15:00"
+      disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]
