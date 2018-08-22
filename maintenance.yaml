@@ -108,7 +108,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
     - symbols: ["IDX:*"]
-      dates: ["2018-08-17","2018-08-18"]
+      dates: ["2018-08-22"]
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       # Разобраться почему не сработал глобальный maintenance и удалить этот.
     - symbols: ["CBOE:VIX"]
@@ -319,3 +319,12 @@ maintenance_list:
     - symbols: ["BIST:*"]
       expiration_utc: "2018-08-25 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]
+      
+    - symbols: ["FTSEMYX:FBMKLCI"]
+      dates: ["2018-08-22"]
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+      
+    - symbols: ["MYX:FINANCE"]
+      dates: ["2018-08-22"]
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+      
