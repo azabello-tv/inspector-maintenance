@@ -328,27 +328,27 @@ maintenance_list:
       dates: ["2018-08-22"]
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
-    - symbols: ["IBROKER:ZB"]
+    - symbols: ["IBROKER:ZB.*"]
       breaks: ["0000-0800"] # редкие торги
       disable: ["realtime_test", "realtime_test_slow"]
 
-    - symbols: ["IBROKER:YM"]
+    - symbols: ["IBROKER:YM.*"]
       breaks: ["2214-2230"] # нет торгов
       disable: ["realtime_test", "realtime_test_slow"]
 
-    - symbols: ["IBROKER:ZS"]
+    - symbols: ["IBROKER:ZS.*"]
       breaks: ["0200-1530"] # редкие торги
       disable: ["realtime_test", "realtime_test_slow"]
 
-    - symbols: ["IBROKER:ES"]
+    - symbols: ["IBROKER:ES.*"]
       breaks: ["2214-2230"] # нет торгов
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["IBROKER:IFM.*"]
-      breaks: ["0030-2030"] # редкие торги
+      breaks: ["1730-2030"] # редкие торги
       disable: ["realtime_test", "realtime_test_slow"]
 
-    - symbols: ["IBROKER:IX"]
+    - symbols: ["IBROKER:IX.*"]
       breaks: ["1730-0900"] # редкие торги
       disable: ["realtime_test", "realtime_test_slow"]
       
