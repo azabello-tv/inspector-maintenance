@@ -344,8 +344,8 @@ maintenance_list:
       breaks: ["2214-2230"] # нет торгов
       disable: ["realtime_test", "realtime_test_slow"]
 
-    - symbols: ["IBROKER:IFM"]
-      breaks: ["1730-2030"] # редкие торги
+    - symbols: ["IBROKER:IFM.*"]
+      breaks: ["0030-2030"] # редкие торги
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["IBROKER:IX"]
