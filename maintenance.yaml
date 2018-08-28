@@ -349,6 +349,6 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["IBROKER:IX.*"]
-      breaks: ["1730-0900"] # редкие торги
+      breaks: ["0030-2300"] # редкие торги
       disable: ["realtime_test", "realtime_test_slow"]
       
