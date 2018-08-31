@@ -96,7 +96,7 @@ maintenance_list:
       disable: ["history_test"]
 
     - symbols: ["FTSEMYX:*"]
-      expiration_utc: "2018-06-16 01:00:00"
+      expiration_utc: "2018-09-03 01:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
     - symbols: ["MYX:*"]
@@ -325,7 +325,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
     - symbols: ["MYX:FINANCE"]
-      dates: ["2018-08-22"]
+      dates: ["2018-09-03"]
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
     - symbols: ["IBROKER:ZB.*"]
