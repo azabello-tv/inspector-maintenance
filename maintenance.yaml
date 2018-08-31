@@ -100,7 +100,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
     - symbols: ["MYX:*"]
-      expiration_utc: "2018-07-23 10:00:00"
+      expiration_utc: "2018-09-03 10:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
     - symbols: ["TVC:*"]
@@ -252,10 +252,6 @@ maintenance_list:
       expiration_utc: "2018-06-25 13:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
-    - symbols: ["MYX:*"]
-      expiration_utc: "2018-07-02 07:00:00"
-      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
-      
     - symbols: ["CEXIO:GHSUSD"]
       expiration_utc: "2018-07-18 10:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
