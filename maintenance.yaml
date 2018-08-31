@@ -141,47 +141,47 @@ maintenance_list:
 
 # Bitfinex and related
     - symbols: ["BITFINEX:*"]
-      expiration_utc: "2018-08-08 15:00:00"
+      expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["BITFLYE:*"]
-      expiration_utc: "2018-08-08 11:00:00"
+      expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["BITSO:ETHUSD"]
-      expiration_utc: "2018-07-05 19:00:00"
+      expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["BITSO:*"]
-      expiration_utc: "2018-08-08 09:00:00"
+      expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["BITTREX:*"]
-      expiration_utc: "2018-08-08 09:00:00"
+      expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["BITFLYER:*"]
-      expiration_utc: "2018-08-08 09:00:00"
+      expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["BITHUMB:*"]
-      expiration_utc: "2018-08-08 09:00:00"
+      expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["BITTREX:DASHUSD"]
-      expiration_utc: "2018-08-08 19:00:00"
+      expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["BITTREX:OMGUSD"]
-      expiration_utc: "2018-08-08 19:00:00"
+      expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["BITTREX:TUSDUS*"]
-      expiration_utc: "2018-08-08 09:00:00"
+      expiration_utc: "2018-09-01 11:00:00"
       disable: ["history_test"]
 
     - symbols: ["BITFLYER:ETHUSD"]
-      expiration_utc: "2018-08-08 19:00:00"
+      expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["POLONIEX:*"]
