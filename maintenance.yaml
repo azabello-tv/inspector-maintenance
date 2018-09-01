@@ -331,6 +331,10 @@ maintenance_list:
     - symbols: ["MYX:FINANCE"]
       dates: ["2018-09-03"]
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+
+    - symbols: ["IBROKER:.*"]
+      dates: ["2018-09-03 04:00:00"]
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
     - symbols: ["IBROKER:ZB.*"]
       breaks: ["0000-0800"] # редкие торги
