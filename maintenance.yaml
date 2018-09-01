@@ -95,6 +95,10 @@ maintenance_list:
       expiration_utc: "2018-09-03 06:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
+    - symbols: ["COMEX_MINI:.*"]
+      expiration_utc: "2018-09-03 06:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+
     - symbols: ["NYMEX:KA*"]
       expiration_utc: "2018-04-26 12:00:00"
       disable: ["history_test"]
