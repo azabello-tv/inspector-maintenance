@@ -1,15 +1,15 @@
 ---
 
 maintenance_list:
-    - symbols: ["EURONEXT:*"]
+    - symbols: ["EURONEXT:.*"]
       dates: ["2018-04-02", "2018-05-01","2018-12-25","2018-12-26"]
       disable: ["realtime_test", "realtime_test_slow"]
 
-    - symbols: ["TVC:*"]
+    - symbols: ["TVC:.*"]
       dates: ["2018-04-02"]
       disable: ["realtime_test", "realtime_test_slow"]
 
-    - symbols: ["NSENG:*"]
+    - symbols: ["NSENG:.*"]
       expiration_utc: "2018-06-19 10:15:00"
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test"]
 
@@ -39,7 +39,7 @@ maintenance_list:
       expiration_utc: "2018-07-04 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
-    - symbols: ["NSENG:*"]
+    - symbols: ["NSENG:.*"]
       dates: ["2018-04-02", "2018-05-01", "2018-05-29", "2018-06-15", "2018-06-16", "2018-08-21", "2018-08-22", "2018-10-01", "2018-11-20", "2018-12-25", "2018-12-26"]
       disable: ["realtime_test", "realtime_test_slow"]
       
@@ -75,15 +75,15 @@ maintenance_list:
       expiration_utc: "2018-07-25 9:00:00"
       disable: ["realtime_test", "realtime_test_slow"]
 
-    - symbols: ["FX:*"]
+    - symbols: ["FX:.*"]
       expiration_utc: "2018-07-04 23:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
-    - symbols: ["GOCIO:*"]
+    - symbols: ["GOCIO:.*"]
       expiration_utc: "2018-04-11 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
-    - symbols: ["CEXIO:*"]
+    - symbols: ["CEXIO:.*"]
       expiration_utc: "2018-07-15 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
@@ -95,11 +95,11 @@ maintenance_list:
       expiration_utc: "2018-05-14 12:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
-    - symbols: ["BCS:*"]
+    - symbols: ["BCS:.*"]
       expiration_utc: "2018-08-09 12:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
-    - symbols: ["COMEX_MINI:*"]
+    - symbols: ["COMEX_MINI:.*"]
       expiration_utc: "2018-09-03 06:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
@@ -111,19 +111,19 @@ maintenance_list:
       expiration_utc: "2018-04-26 12:00:00"
       disable: ["history_test"]
 
-    - symbols: ["FTSEMYX:*"]
+    - symbols: ["FTSEMYX:.*"]
       expiration_utc: "2018-09-03 01:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
-    - symbols: ["MYX:*"]
+    - symbols: ["MYX:.*"]
       expiration_utc: "2018-09-03 10:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
-    - symbols: ["TVC:*"]
+    - symbols: ["TVC:.*"]
       expiration_utc: "2018-08-08 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
-    - symbols: ["IDX:*"]
+    - symbols: ["IDX:.*"]
       dates: ["2018-08-22"]
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       # Разобраться почему не сработал глобальный maintenance и удалить этот.
@@ -131,11 +131,11 @@ maintenance_list:
       expiration_utc: "2018-05-17 05:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
-    - symbols: ["XETR:*"]
+    - symbols: ["XETR:.*"]
       expiration_utc: "2018-05-22 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
     
-    - symbols: ["BINANCE:*"]
+    - symbols: ["BINANCE:.*"]
       expiration_utc: "2018-07-05 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
     
@@ -151,16 +151,16 @@ maintenance_list:
       expiration_utc: "2018-06-05 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
 
-    - symbols: ["BVC:*"]
+    - symbols: ["BVC:.*"]
       expiration_utc: "2018-08-08 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
 
 # Bitfinex and related
-    - symbols: ["BITFINEX:*"]
+    - symbols: ["BITFINEX:.*"]
       expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
-    - symbols: ["BITFLYE:*"]
+    - symbols: ["BITFLYE:.*"]
       expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
@@ -168,19 +168,19 @@ maintenance_list:
       expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
-    - symbols: ["BITSO:*"]
+    - symbols: ["BITSO:.*"]
       expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
-    - symbols: ["BITTREX:*"]
+    - symbols: ["BITTREX:.*"]
       expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
-    - symbols: ["BITFLYER:*"]
+    - symbols: ["BITFLYER:.*"]
       expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
-    - symbols: ["BITHUMB:*"]
+    - symbols: ["BITHUMB:.*"]
       expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
@@ -200,7 +200,7 @@ maintenance_list:
       expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
-    - symbols: ["POLONIEX:*"]
+    - symbols: ["POLONIEX:.*"]
       expiration_utc: "2018-04-11 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
@@ -220,11 +220,11 @@ maintenance_list:
       expiration_utc: "2018-08-14 19:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
-    - symbols: ["KORBIT:*"]
+    - symbols: ["KORBIT:.*"]
       expiration_utc: "2018-06-05 19:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
-    - symbols: ["OMXSTO:*"]
+    - symbols: ["OMXSTO:.*"]
       expiration_utc: "2018-06-23 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
@@ -240,7 +240,7 @@ maintenance_list:
       expiration_utc: "2018-06-18 06:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
-    - symbols: ["COINBASE:*"]
+    - symbols: ["COINBASE:.*"]
       expiration_utc: "2018-06-18 06:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
     
@@ -248,7 +248,7 @@ maintenance_list:
       expiration_utc: "2018-06-26 06:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"] 
 
-    - symbols: ["HOSE:*"]
+    - symbols: ["HOSE:.*"]
       breaks: ["1130-1300"] # ежедневный перерыв на ланч
       disable: ["realtime_test", "realtime_test_slow"]
 
@@ -256,15 +256,15 @@ maintenance_list:
       breaks: ["1200-1300"] # ежедневный перерыв на ланч
       disable: ["realtime_test", "realtime_test_slow"]
       
-    - symbols: ["SET:*"]
+    - symbols: ["SET:.*"]
       breaks: ["1230-1430"] # ежедневный перерыв на ланч
       disable: ["realtime_test", "realtime_test_slow"]
       
-    - symbols: ["MOEX:*"]
+    - symbols: ["MOEX:.*"]
       breaks: ["1359-1405","1845-1900"] # перерывы для фьючерсов
       disable: ["realtime_test", "realtime_test_slow"]
     
-    - symbols: ["TSXV:*"]
+    - symbols: ["TSXV:.*"]
       expiration_utc: "2018-06-25 13:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
@@ -284,7 +284,7 @@ maintenance_list:
       expiration_utc: "2018-07-03 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
-    - symbols: ["IBROKER:*"]
+    - symbols: ["IBROKER:.*"]
       expiration_utc: "2058-06-25 09:10:00"
       disable: ["symbol_search_test"]
       
@@ -296,19 +296,19 @@ maintenance_list:
       expiration_utc: "2018-07-02 09:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]  
     
-    - symbols: ["SP:*"]
+    - symbols: ["SP:.*"]
       expiration_utc: "2018-07-04 09:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
       
-    - symbols: ["BINANCE:*"]
+    - symbols: ["BINANCE:.*"]
       expiration_utc: "2018-07-05 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
-    - symbols: ["XCOIN:*"]
+    - symbols: ["XCOIN:.*"]
       expiration_utc: "2018-08-15 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
     
-    - symbols: ["JSE:*"]
+    - symbols: ["JSE:.*"]
       expiration_utc: "2018-08-10 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]  
       
@@ -320,15 +320,15 @@ maintenance_list:
       expiration_utc: "2018-09-10 10:15:00"
       disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]
 
-    - symbols: ["TADAWUL:*"]
+    - symbols: ["TADAWUL:.*"]
       expiration_utc: "2018-08-24 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]
 
-    - symbols: ["EGX:*"]
+    - symbols: ["EGX:.*"]
       expiration_utc: "2018-08-23 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]
 
-    - symbols: ["BIST:*"]
+    - symbols: ["BIST:.*"]
       expiration_utc: "2018-08-25 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]
       
