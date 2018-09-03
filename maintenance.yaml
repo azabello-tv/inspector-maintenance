@@ -23,6 +23,14 @@ maintenance_list:
       # http://www.xetra.com/xetra-en/newsroom/trading-calendar
       # если будет стрелять TVC:DEU30, то знайте, это он 
 
+    - symbols: ["HOSE:.*"]
+      dates: ["2018-09-03"]                               # National Day  
+      disable: ["realtime_test", "realtime_test_slow"]
+
+    - symbols: ["FOREXCOM:.*"]
+      dates: ["2018-09-03"]                               # US Labor Day  
+      disable: ["realtime_test", "realtime_test_slow"]
+
     - symbols: ["FOREXCOM:NSXUSD"]
       dates: ["2018-05-29"]
       disable: ["realtime_test", "realtime_test_slow"]
