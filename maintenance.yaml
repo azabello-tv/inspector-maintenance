@@ -1,6 +1,10 @@
 ---
 
 maintenance_list:
+    - symbols: ["FX:.*"]
+      expiration_utc: "2018-12-04 23:10:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]    
+
     - symbols: ["EURONEXT:.*"]
       dates: ["2018-04-02", "2018-05-01","2018-12-25","2018-12-26"]
       disable: ["realtime_test", "realtime_test_slow"]
