@@ -116,7 +116,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["IDX:.*"]
-      dates: ["2018-08-22"]
+      dates: ["2018-09-12"]
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       # Разобраться почему не сработал глобальный maintenance и удалить этот.
     - symbols: ["CBOE:VIX"]
