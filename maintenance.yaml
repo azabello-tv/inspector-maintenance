@@ -98,6 +98,10 @@ maintenance_list:
     - symbols: ["OKCOIN:BTCUSD"]
       expiration_utc: "2018-05-19 00:30:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
+      
+    - symbols: ["OKCOIN:.*"]
+      expiration_utc: "2018-09-14 13:25:00"
+      disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
 
     - symbols: ["OKCOIN:LTCCNY*"]
       expiration_utc: "2018-05-14 12:00:00"
