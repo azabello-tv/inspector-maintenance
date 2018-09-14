@@ -100,7 +100,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
       
     - symbols: ["OKCOIN:.*"]
-      expiration_utc: "2018-09-14 13:25:00"
+      expiration_utc: "2018-09-13 13:25:00"
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
 
     - symbols: ["OKCOIN:LTCCNY*"]
