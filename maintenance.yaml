@@ -185,7 +185,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["BITTREX:.*"]
-      expiration_utc: "2018-09-19 07:00:00"
+      expiration_utc: "2018-09-11 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
 
     - symbols: ["BITTREX:BTGBTC"]
