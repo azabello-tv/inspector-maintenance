@@ -372,9 +372,9 @@ maintenance_list:
       breaks: ["2214-2230"] # нет торгов
       disable: ["realtime_test", "realtime_test_slow"]
 
-    - symbols: ["IBROKER:IFM.*"]
-      breaks: ["1730-2030"] # редкие торги
-      disable: ["realtime_test", "realtime_test_slow"]
+#    - symbols: ["IBROKER:IFM.*"]
+#      breaks: ["1730-2030"] # редкие торги
+#      disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["IBROKER:IX.*"]
       breaks: ["1730-0900"] # редкие торги
@@ -390,5 +390,5 @@ maintenance_list:
     
     - symbols: ["IBROKER:IFM.*"]
       expiration_utc: "2018-09-24 09:00:00"
-      disable: ["fxcm_realtime_test", "history_test", "quote_test"]
+      disable: ["history_test"]
 
