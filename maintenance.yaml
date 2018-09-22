@@ -356,8 +356,8 @@ maintenance_list:
       dates: ["2018-10-03"]
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
-    - symbols: ["IBROKER:.*"]
-      dates: ["2018-09-23"]
+    - symbols: ["IBROKER:.FCEV.*"]
+      dates: ["2018-09-24"] # Выиплился с их сайта
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["IBROKER:ZB.*"]
