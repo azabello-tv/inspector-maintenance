@@ -355,6 +355,10 @@ maintenance_list:
     - symbols: ["IBROKER:CLV2018"]
       dates: ["2018-10-03"]
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+      
+    - symbols: ["IBROKER:.*"]
+      dates: ["2018-09-23"]
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["IBROKER:ZB.*"]
       breaks: ["0000-0800"] # редкие торги
