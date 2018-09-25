@@ -147,8 +147,16 @@ maintenance_list:
       expiration_utc: "2018-05-22 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
-    - symbols: ["BINANCE:.*"]
-      expiration_utc: "2018-07-05 11:00:00"
+    - symbols: ["BINANCE:RPX.*"]
+      expiration_utc: "2018-09-31 11:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+
+    - symbols: ["BINANCE:VEN.*"]
+      expiration_utc: "2018-09-31 11:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+
+    - symbols: ["BINANCE:HSR.*"]
+      expiration_utc: "2018-09-31 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["CRAINS:OHIO"]
