@@ -287,6 +287,10 @@ maintenance_list:
     - symbols: ["MOEX:.*"]
       breaks: ["1359-1405","1845-1900"] # перерывы для фьючерсов
       disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["TASE:.*"]
+      breaks: ["1410-1430"] # периодически редкие торги
+      disable: ["realtime_test", "realtime_test_slow"]      
 
     - symbols: ["TSXV:.*"]
       expiration_utc: "2018-06-25 13:10:00"
