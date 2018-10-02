@@ -373,7 +373,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["IBROKER:UROV2018"]
-      dates: ["2018-10-02 09:00:00"]
+      dates: ["2018-09-26 09:00:00"]
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
             
     - symbols: ["IBROKER:.FCEV.*"]
