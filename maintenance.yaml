@@ -324,6 +324,10 @@ maintenance_list:
       expiration_utc: "2018-10-05 06:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
+    - symbols: ["TASE:*FRUT"]
+      expiration_utc: "2018-10-05 06:10:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
+
     - symbols: ["TSXV:.*"]
       expiration_utc: "2018-06-25 13:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
