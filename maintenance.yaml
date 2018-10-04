@@ -227,6 +227,10 @@ maintenance_list:
     - symbols: ["BITTREX:.OMGUSD"]
       expiration_utc: "2018-10-04 18:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]  
+      
+    - symbols: ["GOCIO:.LTCBTC"]
+      expiration_utc: "2018-10-04 18:10:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]  
 
     - symbols: ["BITHUMB:.*"]
       expiration_utc: "2018-09-01 11:00:00"
