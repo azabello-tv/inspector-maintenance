@@ -184,7 +184,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
 
 # Bitfinex and related
-    - symbols: ["BITFINEX:.*"]
+    - symbols: ["BITFINEX:*"]
       expiration_utc: "2018-10-04 18:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
 
@@ -208,27 +208,27 @@ maintenance_list:
       expiration_utc: "2018-09-17 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
-    - symbols: ["BITFLYER:.*"]
+    - symbols: ["BITFLYER:*"]
       expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
-    - symbols: ["BITFLYER:.ETHUSD"]
+    - symbols: ["BITFLYER:ETHUSD"]
       expiration_utc: "2018-10-04 18:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]    
 
-    - symbols: ["BITSO:.ETHUSD"]
+    - symbols: ["BITSO:ETHUSD"]
       expiration_utc: "2018-10-04 18:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]  
       
-    - symbols: ["BITTREX:.DASHUSD"]
+    - symbols: ["BITTREX:DASHUSD"]
       expiration_utc: "2018-10-04 18:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]  
       
-    - symbols: ["BITTREX:.OMGUSD"]
+    - symbols: ["BITTREX:OMGUSD"]
       expiration_utc: "2018-10-04 18:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]  
       
-    - symbols: ["GOCIO:.LTCBTC"]
+    - symbols: ["GOCIO:LTCBTC"]
       expiration_utc: "2018-10-04 18:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]  
 
