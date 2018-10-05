@@ -400,8 +400,8 @@ maintenance_list:
       dates: ["2018-09-03"]
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
-    - symbols: ["IBROKER:CLV2018"]
-      dates: ["2018-10-03"]
+    - symbols: ["IBROKER:HGX2018"]
+      expiration_utc: "2018-10-05 8:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["IBROKER:UROV2018"]
