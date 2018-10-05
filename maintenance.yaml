@@ -401,7 +401,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["IBROKER:HGX2018"]
-      expiration_utc: "2018-10-05 8:00:00"
+      expiration_utc: "2018-10-06 8:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["IBROKER:UROV2018"]
