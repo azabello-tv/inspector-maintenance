@@ -212,6 +212,26 @@ maintenance_list:
       expiration_utc: "2020-09-17 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
+    - symbols: ["BITTREX:ERC.*"]
+      expiration_utc: "2020-09-17 07:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+
+    - symbols: ["BITTREX:LMC.*"]
+      expiration_utc: "2020-09-17 07:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+
+    - symbols: ["BITTREX:PTC.*"]
+      expiration_utc: "2020-09-17 07:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+
+    - symbols: ["BITTREX:RBY.*"]
+      expiration_utc: "2020-09-17 07:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+
+    - symbols: ["BITTREX:UNB.*"]
+      expiration_utc: "2020-09-17 07:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+
     - symbols: ["BITFLYER:*"]
       expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
