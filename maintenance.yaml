@@ -147,8 +147,8 @@ maintenance_list:
       expiration_utc: "2018-05-17 05:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
-    - symbols: ["XETR:.*"]
-      expiration_utc: "2018-10-04 09:00:00"
+    - symbols: ["XETR:*"]
+      expiration_utc: "2018-10-15 10:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
     - symbols: ["IBROKER:UROV2018"]  # https://tradingview.slack.com/archives/C0PSLSK4P/p1538462500000100?thread_ts=1538440556.000100&cid=C0PSLSK4P
