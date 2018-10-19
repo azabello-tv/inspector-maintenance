@@ -384,9 +384,9 @@ maintenance_list:
       expiration_utc: "2018-07-04 09:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
-    - symbols: ["BINANCE:.*"]
-      expiration_utc: "2018-07-05 11:00:00"
-      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+    - symbols: ["BINANCE:*"]
+      expiration_utc: "2018-10-19 7:20:00"
+      disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]
 
     - symbols: ["XCOIN:.*"]
       expiration_utc: "2018-08-15 11:00:00"
