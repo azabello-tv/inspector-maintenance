@@ -336,6 +336,10 @@ maintenance_list:
       breaks: ["1230-1430"] # ежедневный перерыв на ланч
       disable: ["realtime_test", "realtime_test_slow"]
 
+    - symbols: ["SET:*"]
+      expiration_utc: "2018-10-24 7:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
+
     - symbols: ["MOEX:.*"]
       breaks: ["1359-1405","1845-1900"] # перерывы для фьючерсов
       disable: ["realtime_test", "realtime_test_slow"]
