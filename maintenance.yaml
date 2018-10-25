@@ -316,8 +316,8 @@ maintenance_list:
       expiration_utc: "2018-06-18 06:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
-    - symbols: ["COINBASE:.*"]
-      expiration_utc: "2018-06-18 06:10:00"
+    - symbols: ["TSE:.*"]
+      expiration_utc: "2018-10-25 06:30:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["BITFINEX:AUCBTC"]
