@@ -479,3 +479,11 @@ maintenance_list:
     - symbols: ["BVC:IGBC"]   # maintenance while https://xbugs.tradingview.com/browse/BS-4671 is not closed
       expiration_utc: "2018-12-06 8:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+
+    - symbols: ["BITTREX:DGDUSD"]
+      expiration_utc: "2018-10-27 13:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
+
+    - symbols: ["BITTREX:SNGLSUSD"]
+      expiration_utc: "2018-10-27 13:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
