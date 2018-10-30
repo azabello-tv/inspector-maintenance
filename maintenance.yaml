@@ -36,7 +36,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["FOREXCOM:XAUUSD"]
-      expiration_utc: "2018-07-04 07:00:00"
+      expiration_utc: "2018-10-31 10:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
     - symbols: ["NSENG:.*"]
