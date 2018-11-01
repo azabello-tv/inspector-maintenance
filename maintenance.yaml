@@ -281,7 +281,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
       
     - symbols: ["KRAKEN:ICNUSD"]
-      expiration_utc: "2018-11-01 06:10:00"
+      expiration_utc: "2018-11-05 06:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
     - symbols: ["POLONIEX:XEMUSD"]
