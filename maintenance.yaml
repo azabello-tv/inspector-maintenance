@@ -6,7 +6,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["BVL:SPBLPGPT"]
-      dates: ["2018-11-01"]
+      dates: ["2018-11-02"]
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["TVC:.*"]
