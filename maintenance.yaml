@@ -5,6 +5,10 @@ maintenance_list:
       dates: ["2018-04-02", "2018-05-01","2018-12-25","2018-12-26"]
       disable: ["realtime_test", "realtime_test_slow"]
 
+    - symbols: ["BVL:SPBLPGPT"]
+      dates: ["2018-11-01"]
+      disable: ["realtime_test", "realtime_test_slow"]
+
     - symbols: ["TVC:.*"]
       dates: ["2018-04-02"]
       disable: ["realtime_test", "realtime_test_slow"]
