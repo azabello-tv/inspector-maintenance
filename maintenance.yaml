@@ -404,7 +404,7 @@ maintenance_list:
       expiration_utc: "2018-10-18 16:20:00"
       disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]
       
-    - symbols: ["GEMINI:*"]
+    - symbols: ["GEMINI:.*"]
       expiration_utc: "2018-11-10 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]
 
