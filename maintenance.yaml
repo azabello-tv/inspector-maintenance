@@ -496,10 +496,6 @@ maintenance_list:
       expiration_utc: "2018-10-24 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]  
 
-    - symbols: ["BOVESPA:.*"]
-      expiration_utc: "2018-11-12 16:00:00"
-      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
-    
     - symbols: ["IBROKER:IFM.*"]
       expiration_utc: "2018-09-24 09:00:00"
       disable: ["history_test"]
