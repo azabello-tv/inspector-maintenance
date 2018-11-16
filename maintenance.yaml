@@ -164,8 +164,8 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
     
     - symbols: ["IBROKER:UROX2018"]  
-      expiration_utc: "2018-11-09 09:00:00"
-      disable: ["realtime_test", "realtime_test_slow"]
+      expiration_utc: "2018-11-20 09:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
       
     - symbols: ["BINANCE:RPX.*"]
       expiration_utc: "2018-09-30 11:00:00"
