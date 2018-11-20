@@ -520,6 +520,6 @@ maintenance_list:
       expiration_utc: "2018-11-23 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
       
-    - symbols: ["IBROKER:LIZ2018_D"]
+    - symbols: ["IBROKER:LIZ2018"] # https://tradingview.slack.com/archives/C0PSLSK4P/p1542708981734500
       expiration_utc: "2018-11-24 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
