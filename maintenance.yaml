@@ -159,10 +159,6 @@ maintenance_list:
       expiration_utc: "2018-10-15 10:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
-    - symbols: ["IBROKER:LIZ2018"]  # https://tradingview.slack.com/archives/C0PSLSK4P/p1542326880611100?thread_ts=1542323526.608800&cid=C0PSLSK4P
-      expiration_utc: "2018-11-20 09:30:00"
-      disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
-    
     - symbols: ["IBROKER:UROX2018"]  
       expiration_utc: "2018-11-20 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
