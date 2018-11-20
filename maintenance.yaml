@@ -519,3 +519,7 @@ maintenance_list:
     - symbols: ["OMXTSE:OEG1T"]
       expiration_utc: "2018-11-23 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
+      
+    - symbols: ["IBROKER:LIZ2018_D"]
+      expiration_utc: "2018-11-24 07:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
