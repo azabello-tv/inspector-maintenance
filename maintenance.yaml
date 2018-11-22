@@ -497,7 +497,7 @@ maintenance_list:
       disable: ["history_test"]
       
     - symbols: ["IBROKER:GOOGL_CFD.*"]
-      expiration_utc: "2018-11-20 09:00:00"
+      expiration_utc: "2018-11-30 09:00:00"
       disable: ["history_test"] 
 
     - symbols: ["BVC:IGBC"]   # maintenance while https://xbugs.tradingview.com/browse/BS-4671 is not closed
