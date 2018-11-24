@@ -99,6 +99,10 @@ maintenance_list:
       expiration_utc: "2018-07-15 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
+    - symbols: ["CEXIO:GHSUSD"]
+      expiration_utc: "2018-11-26 11:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
+
     - symbols: ["OKCOIN:BTCUSD"]
       expiration_utc: "2018-05-19 00:30:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
