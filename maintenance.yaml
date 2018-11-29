@@ -487,6 +487,10 @@ maintenance_list:
     - symbols: ["IBROKER:IX.*"]
       breaks: ["1730-0900"] # редкие торги
       disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["IBROKER:HGF2019"]
+      expiration_utc: "2018-12-06 09:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
     
     - symbols: ["INDEX:DXY.*"]
       expiration_utc: "2018-09-11 14:00:00"
