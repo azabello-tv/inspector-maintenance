@@ -269,8 +269,8 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]  
 
     - symbols: ["BITHUMB:.*"]
-      expiration_utc: "2018-10-29 01:10:00"
-      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
+      expiration_utc: "2018-11-30 11:30:00"
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
     - symbols: ["BITTREX:DASHUSD"]
       expiration_utc: "2018-09-01 11:00:00"
