@@ -547,3 +547,7 @@ maintenance_list:
     - symbols: ["BITFINEX:RBTUSD"] 
       expiration_utc: "2018-11-28 07:00:00"
       disable: ["history_test"]
+      
+    - symbols: ["INDEX:ENTREPRENEUR"] # George H.W. Bush Day of Mourning 5/12/20118
+      expiration_utc: "2018-12-06 07:00:00"
+      disable: ["realtime_test", "realtime_test_slow"]
