@@ -532,8 +532,8 @@ maintenance_list:
       expiration_utc: "2018-11-24 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
       
-    - symbols: ["WEX:.*"]
-      expiration_utc: "2018-11-28 07:00:00"
+    - symbols: ["WEX:.*"] # https://tradingview.slack.com/archives/C0PSLSK4P/p1544169657252000
+      expiration_utc: "2019-01-01 05:00:00" 
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
       
     - symbols: ["FX_IDC:AUDCAD"]
