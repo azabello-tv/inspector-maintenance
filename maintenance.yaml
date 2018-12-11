@@ -551,3 +551,7 @@ maintenance_list:
     - symbols: ["INDEX:ENTREPRENEUR"] # George H.W. Bush Day of Mourning 5/12/20118
       expiration_utc: "2018-12-06 07:00:00"
       disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["CRYPTOCAP:.*"] # https://tradingview.slack.com/archives/C46E08VPH/p1544509546276300
+      expiration_utc: "2018-12-12 07:00:00"
+      disable: ["realtime_test","realtime_test_slow"]
