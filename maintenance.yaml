@@ -554,4 +554,4 @@ maintenance_list:
       
     - symbols: ["CRYPTOCAP:.*"] # https://tradingview.slack.com/archives/C46E08VPH/p1544509546276300
       expiration_utc: "2018-12-12 07:00:00"
-      disable: ["realtime_test","realtime_test_slow"]
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
