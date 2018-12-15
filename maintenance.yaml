@@ -511,6 +511,14 @@ maintenance_list:
     - symbols: ["IBROKER:GOOGL_CFD.*"]
       expiration_utc: "2018-12-31 09:00:00"
       disable: ["history_test"] 
+      
+    - symbols: ["IBROKER:DXH2019.*"]
+      expiration_utc: "2018-12-31 09:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"] 
+      
+    - symbols: ["IBROKER:LIF2019.*"]
+      expiration_utc: "2018-12-31 09:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"] 
 
     - symbols: ["BVC:IGBC"]   # maintenance while https://xbugs.tradingview.com/browse/BS-4671 is not closed
       expiration_utc: "2018-12-06 8:00:00"
