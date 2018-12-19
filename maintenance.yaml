@@ -167,10 +167,6 @@ maintenance_list:
       expiration_utc: "2018-10-15 10:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
-    - symbols: ["IBROKER:UROX2018"]  
-      expiration_utc: "2018-11-20 09:00:00"
-      disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
-      
     - symbols: ["BINANCE:RPX.*"]
       expiration_utc: "2018-09-30 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
@@ -455,46 +451,6 @@ maintenance_list:
     - symbols: ["MYX:FINANCE"]
       dates: ["2018-09-03"]
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
-
-    - symbols: ["IBROKER:HGX2018"]
-      expiration_utc: "2018-10-06 8:00:00"
-      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
-
-    - symbols: ["IBROKER:UROV2018"]
-      dates: ["2018-09-26 09:00:00"]
-      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
-            
-    - symbols: ["IBROKER:.FCEV.*"]
-      dates: ["2018-09-25"] # Выиплился с их сайта
-      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
-
-    - symbols: ["IBROKER:ZB.*"]
-      breaks: ["0000-0800"] # редкие торги
-      disable: ["realtime_test", "realtime_test_slow"]
-
-    - symbols: ["IBROKER:YM.*"]
-      breaks: ["2214-2230"] # нет торгов
-      disable: ["realtime_test", "realtime_test_slow"]
-
-    - symbols: ["IBROKER:ZS.*"]
-      breaks: ["0200-1530"] # редкие торги
-      disable: ["realtime_test", "realtime_test_slow"]
-
-    - symbols: ["IBROKER:ES.*"]
-      breaks: ["2214-2230"] # нет торгов
-      disable: ["realtime_test", "realtime_test_slow"]
-
-#    - symbols: ["IBROKER:IFM.*"]
-#      breaks: ["1730-2030"] # редкие торги
-#      disable: ["realtime_test", "realtime_test_slow"]
-
-    - symbols: ["IBROKER:IX.*"]
-      breaks: ["1730-0900"] # редкие торги
-      disable: ["realtime_test", "realtime_test_slow"]
-      
-    - symbols: ["IBROKER:HGF2019"]
-      expiration_utc: "2018-12-06 09:00:00"
-      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
     
     - symbols: ["INDEX:DXY.*"]
       expiration_utc: "2018-09-11 14:00:00"
@@ -503,10 +459,6 @@ maintenance_list:
     - symbols: ["SET:.*"]
       expiration_utc: "2018-10-24 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]  
-
-    - symbols: ["IBROKER:IFM.*"]
-      expiration_utc: "2018-09-24 09:00:00"
-      disable: ["history_test"]
       
     - symbols: ["IBROKER:GOOGL_CFD.*"]
       expiration_utc: "2018-12-31 09:00:00"
@@ -534,10 +486,6 @@ maintenance_list:
       
     - symbols: ["OMXTSE:OEG1T"]
       expiration_utc: "2018-11-23 07:00:00"
-      disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
-      
-    - symbols: ["IBROKER:LIZ2018"] # https://tradingview.slack.com/archives/C0PSLSK4P/p1542708981734500
-      expiration_utc: "2018-11-24 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
       
     - symbols: ["WEX:.*"] # https://tradingview.slack.com/archives/C0PSLSK4P/p1544169657252000
