@@ -566,6 +566,6 @@ maintenance_list:
 
 # Perpetual night maintenance for IBROKER futures
     - symbols: ["IBROKER:VIX.*","IBROKER:ZB.*","IBROKER:YM.*","IBROKER:ZS.*","IBROKER:URO.*","IBROKER:CL.*","IBROKER:ES.*","IBROKER:HG.*","IBROKER:FDAX.*","IBROKER:DX.*","IBROKER:LI.*","IBROKER:IX.*"] 
-      breaks: ["1800-0900"]
+      breaks: ["1800-2359", "0000-0900"]
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
 
