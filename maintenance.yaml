@@ -516,6 +516,11 @@ maintenance_list:
       expiration_utc: "2018-12-12 07:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
+    - symbols: ["IBROKER:ADS.*","IBROKER:AENA.*","IBROKER:AGN.*","IBROKER:AGS.*","IBROKER:ENEL.*","IBROKER:HO.*"] 
+      expiration_utc: "2018-12-25 09:30:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"] 
+    # https://tradingview.slack.com/archives/C0PSLSK4P/p1545653499098500?thread_ts=1545639716.075700&cid=C0PSLSK4P
+
 # Perpetual night maintenance for IBROKER futures
     - symbols: ["IBROKER:VIX.*","IBROKER:ZB.*","IBROKER:YM.*","IBROKER:ZS.*","IBROKER:URO.*","IBROKER:CL.*","IBROKER:ES.*","IBROKER:HG.*","IBROKER:FDAX.*","IBROKER:DX.*","IBROKER:LI.*","IBROKER:IX.*"] 
       breaks: ["1800-2359", "0000-0900"]
