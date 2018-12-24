@@ -26,6 +26,10 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       # http://www.xetra.com/xetra-en/newsroom/trading-calendar
       # если будет стрелять TVC:DEU30, то знайте, это он 
+      
+    - symbols: ["TVC:UKX"]
+      expiration_utc: "2018-12-27 10:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["HOSE:.*"]
       dates: ["2018-09-03"]                               # National Day  
