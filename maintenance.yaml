@@ -79,6 +79,10 @@ maintenance_list:
       expiration_utc: "2018-09-12 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
 
+    - symbols: ["SGX:SGPZ2018"]
+      expiration_utc: "2018-12-26 09:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
+
     - symbols: ["CBOT:ZS*"]
       expiration_utc: "2018-09-12 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
