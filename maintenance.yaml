@@ -549,3 +549,7 @@ maintenance_list:
     - symbols: ["OMXBALTIC:.*"]
       expiration_utc: "2018-12-27 05:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+      
+    - symbols: ["OMXSTO:.*"]
+      expiration_utc: "2018-12-27 05:00:00"
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
