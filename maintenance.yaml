@@ -172,7 +172,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["XETR:*"]
-      expiration_utc: "2018-10-15 10:00:00"
+      expiration_utc: "2018-12-27 05:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
     - symbols: ["BINANCE:RPX.*"]
@@ -542,3 +542,6 @@ maintenance_list:
       breaks: ["1800-2359", "0000-0900"]
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
 
+    - symbols: ["OMXNORDIC:.*"]
+      expiration_utc: "2018-06-27 05:00:00"
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
