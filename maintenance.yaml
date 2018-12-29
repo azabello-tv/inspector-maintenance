@@ -557,3 +557,44 @@ maintenance_list:
     - symbols: ["OMXSTO:.*"]
       expiration_utc: "2018-12-27 05:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+      
+    - symbols: ["BITSTAMP:BTCUSD","BITFINEX:BTCUSD","KRAKEN:XBTEUR","OKCOIN:BTCUSD","FX:EURUSD","FX_IDC:EURUSD","BATS:MSFT","NASDAQ:MSFT","NYSE:A","CME_MINI:ES1!","CME_MINI_DL:ES1!","NYMEX:NG1!","CBOT_MINI:YM1!","POLONIEX:ETHBTC","COINBASE:BTCSD"]
+      dates: ["2019-01-01"]
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+    
+    - symbols: ["BCBA:.*","ASX:.*","BMFBOVESPA:.*","BCS:.*","BVC:.*","OMXCOP:.*","OMXTSE:.*","OMXHEX:.*","FWB:.*","SWB:.*","XETR:.*","HKEX:.*","OMXICE:.*","IDX:.*","MIL:.*","TSE:.*","OMXRSE:.*","OMXVSE:.*","NZX:.*","GPW:.*","MOEX:.*","BELEX:.*","SGX","KRX:.*","OMXSTO:.*","TWSE:.*","SET:.*","LSE:.*","EUREX:.*","ICEUSA:.*","ICEEUR:.*"]
+      dates: ["2018-12-31"]
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+    
+    - symbols: ["BCBA:.*","ASX:.*","BAHRAIN:.*","BMFBOVESPA:.*","TSX:.*","TSXV:.*","BCS:.*","SZSE:.*","BVC:.*","OMXCOP:.*","EGX:.*","OMXTSE:.*","OMXHEX:.*","FWB:.*","SWB:.*","XETR:.*","HKEX:.*","OMXICE:.*","IDX:.*","MIL:.*","TSE:.*","OMXRSE:.*","OMXVSE:.*","MYX:.*","BMV:.*","NZX:.*","NSENG:.*","BVL:.*","GPW:.*","QSE:.*","MOEX:.*","BELEX:.*","SGX:.*","JSE:.*","KRX:.*","BME:.*","OMXSTO:.*","SIX:.*","TWSE:.*","SET:.*","BIST:.*","DFM:.*","LSE:.*","BATS:.*","NASDAQ:.*","NYSE:.*","AMEX:.*","OTC:.*","CME:.*","CME_MINI:.*","CBOT:.*","CBOT_MINI:.*","NYMEX:.*","NYMEX_MINI:.*","COMEX:.*","COMEX_MINI:.*","HOSE:.*","EUREX:.*","ICEUSA:.*","ICEEUR:.*"]
+      dates: ["2019-01-01"]
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+      
+    - symbols: ["NZX:.*","MOEX:.*","BELEX:.*","SIX:.*","TSE:.*","NZX:.*"]
+      dates: ["2019-01-02"]
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+      
+    - symbols: ["MOEX:.*","TSE:.*"]
+      dates: ["2019-01-03"]
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+      
+    - symbols: ["MOEX:.*"]
+      dates: ["2019-01-04"]
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+    
+    - symbols: ["MOEX:.*"]
+      dates: ["2019-01-05"]
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+      
+    - symbols: ["MOEX:.*"]
+      dates: ["2019-01-06"]
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+      
+    - symbols: ["MOEX:.*","BVC:.*","EGX:.*"]
+      dates: ["2019-01-07"]
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+    
+    - symbols: ["MOEX:.*"]
+      dates: ["2019-01-08"]
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+    
