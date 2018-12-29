@@ -562,11 +562,11 @@ maintenance_list:
       dates: ["2019-01-01"]
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
     
-    - symbols: ["BCBA:.*","ASX:.*","BMFBOVESPA:.*","BCS:.*","BVC:.*","OMXCOP:.*","OMXTSE:.*","OMXHEX:.*","FWB:.*","SWB:.*","XETR:.*","HKEX:.*","OMXICE:.*","IDX:.*","MIL:.*","TSE:.*","OMXRSE:.*","OMXVSE:.*","NZX:.*","GPW:.*","MOEX:.*","BELEX:.*","SGX","KRX:.*","OMXSTO:.*","TWSE:.*","SET:.*","LSE:.*","EUREX:.*","ICEUSA:.*","ICEEUR:.*"]
+    - symbols: ["BCBA:.*","ASX:.*","BMFBOVESPA:.*","BCS:.*","BVC:.*","OMXCOP:.*","OMXTSE:.*","OMXHEX:.*","FWB:.*","SWB:.*","XETR:.*","HKEX:.*","OMXICE:.*","IDX:.*","MIL:.*","TSE:.*","OMXRSE:.*","OMXVSE:.*","NZX:.*","GPW:.*","MOEX:.*","BELEX:.*","SGX","KRX:.*","OMXSTO:.*","TWSE:.*","SET:.*","LSE:.*","EUREX:.*","ICEUSA:.*","ICEEUR:.*","EURONEXT:.*","FOREX:.*","FX:.*","FX_IDC","OANDA:.*","IBROKER:.*"]
       dates: ["2018-12-31"]
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
     
-    - symbols: ["BCBA:.*","ASX:.*","BAHRAIN:.*","BMFBOVESPA:.*","TSX:.*","TSXV:.*","BCS:.*","SZSE:.*","BVC:.*","OMXCOP:.*","EGX:.*","OMXTSE:.*","OMXHEX:.*","FWB:.*","SWB:.*","XETR:.*","HKEX:.*","OMXICE:.*","IDX:.*","MIL:.*","TSE:.*","OMXRSE:.*","OMXVSE:.*","MYX:.*","BMV:.*","NZX:.*","NSENG:.*","BVL:.*","GPW:.*","QSE:.*","MOEX:.*","BELEX:.*","SGX:.*","JSE:.*","KRX:.*","BME:.*","OMXSTO:.*","SIX:.*","TWSE:.*","SET:.*","BIST:.*","DFM:.*","LSE:.*","BATS:.*","NASDAQ:.*","NYSE:.*","AMEX:.*","OTC:.*","CME:.*","CME_MINI:.*","CBOT:.*","CBOT_MINI:.*","NYMEX:.*","NYMEX_MINI:.*","COMEX:.*","COMEX_MINI:.*","HOSE:.*","EUREX:.*","ICEUSA:.*","ICEEUR:.*"]
+    - symbols: ["BCBA:.*","ASX:.*","BAHRAIN:.*","BMFBOVESPA:.*","TSX:.*","TSXV:.*","BCS:.*","SZSE:.*","BVC:.*","OMXCOP:.*","EGX:.*","OMXTSE:.*","OMXHEX:.*","FWB:.*","SWB:.*","XETR:.*","HKEX:.*","OMXICE:.*","IDX:.*","MIL:.*","TSE:.*","OMXRSE:.*","OMXVSE:.*","MYX:.*","BMV:.*","NZX:.*","NSENG:.*","BVL:.*","GPW:.*","QSE:.*","MOEX:.*","BELEX:.*","SGX:.*","JSE:.*","KRX:.*","BME:.*","OMXSTO:.*","SIX:.*","TWSE:.*","SET:.*","BIST:.*","DFM:.*","LSE:.*","BATS:.*","NASDAQ:.*","NYSE:.*","AMEX:.*","OTC:.*","CME:.*","CME_MINI:.*","CBOT:.*","CBOT_MINI:.*","NYMEX:.*","NYMEX_MINI:.*","COMEX:.*","COMEX_MINI:.*","HOSE:.*","EUREX:.*","ICEUSA:.*","ICEEUR:.*","EURONEXT:.*","FOREX:.*","FX:.*","FX_IDC","OANDA:.*","IBROKER:.*"]
       dates: ["2019-01-01"]
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
       
