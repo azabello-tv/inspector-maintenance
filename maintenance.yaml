@@ -570,7 +570,7 @@ maintenance_list:
       dates: ["2019-01-01"]
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
       
-    - symbols: ["NZX:.*","MOEX:.*","BELEX:.*","SIX:.*","TSE:.*","NZX:.*"]
+    - symbols: ["NZX:.*","MOEX:.*","BELEX:.*","SIX:.*","TSE:.*"]
       dates: ["2019-01-02"]
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
       
