@@ -28,7 +28,7 @@ maintenance_list:
       # если будет стрелять TVC:DEU30, то знайте, это он 
       
     - symbols: ["OANDA:.*"]
-      expiration_utc: "2018-12-26 10:00:00"
+      expiration_utc: "2019-01-02 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
       
     - symbols: ["HOSE:.*"]
