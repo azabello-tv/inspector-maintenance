@@ -517,7 +517,7 @@ maintenance_list:
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
     - symbols: ["FX_IDC:.*"]
-      expiration_utc: "2018-12-26 07:00:00"
+      expiration_utc: "2019-01-02 07:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
     - symbols: ["BITFINEX:RBTBTC"] 
