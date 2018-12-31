@@ -36,8 +36,8 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["FOREXCOM:.*"]
-      dates: ["2018-09-03"]                               # US Labor Day  
-      disable: ["realtime_test", "realtime_test_slow"]
+      dates: ["2019-01-02"]                               # US Labor Day  
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
     - symbols: ["FOREXCOM:NSXUSD"]
       dates: ["2018-05-29"]
