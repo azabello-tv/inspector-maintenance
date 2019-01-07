@@ -211,6 +211,10 @@ maintenance_list:
     - symbols: ["BITFINEX:*"]
       expiration_utc: "2019-01-07 17:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
+      
+    - symbols: ["BITTREX:OMGUSD"]
+      expiration_utc: "2019-01-07 17:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
 
     - symbols: ["BITFLYE:.*"]
       expiration_utc: "2018-09-01 11:00:00"
