@@ -497,7 +497,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"] 
     
     - symbols: ["IBROKER:.*"]
-      expiration_utc: "2019-01-10 09:00:00"
+      expiration_utc: "2019-02-10 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"] 
 
     - symbols: ["BVC:IGBC"]   # maintenance while https://xbugs.tradingview.com/browse/BS-4671 is not closed
