@@ -14,7 +14,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test"]
 
     - symbols: ["NSENG:.*"]
-      expiration_utc: "2018-06-19 10:15:00"
+      expiration_utc: "2019-01-15 00:00:00"
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test"]
 
     - symbols: ["NASDAQ:IXIC"]
