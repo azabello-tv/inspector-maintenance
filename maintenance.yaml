@@ -231,6 +231,10 @@ maintenance_list:
     - symbols: ["BITTREX:DGBUSD"]
       expiration_utc: "2021-09-11 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
+      
+    - symbols: ["BITTREX:DGBUSD.*"]
+      expiration_utc: "2021-09-11 07:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
 
     - symbols: ["BITTREX:BTGBTC"]
       expiration_utc: "2018-09-17 07:00:00"
