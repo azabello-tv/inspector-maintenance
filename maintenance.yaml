@@ -43,6 +43,10 @@ maintenance_list:
       dates: ["2018-05-29"]
       disable: ["realtime_test", "realtime_test_slow"]
 
+    - symbols: ["KORBIT:.*"]
+      expiration_utc: "2018-01-30 17:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
+
     - symbols: ["FOREXCOM:XAUUSD"]
       expiration_utc: "2018-11-06 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
