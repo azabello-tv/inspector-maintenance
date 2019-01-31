@@ -220,7 +220,7 @@ maintenance_list:
       expiration_utc: "2019-01-07 20:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
       
-    - symbols: ["BITTREX:ZENUSD"]
+    - symbols: ["BITTREX:ZENUSD.*"]
       expiration_utc: "2019-02-01 07:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
