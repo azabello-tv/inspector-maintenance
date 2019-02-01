@@ -27,6 +27,10 @@ maintenance_list:
       # http://www.xetra.com/xetra-en/newsroom/trading-calendar
       # если будет стрелять TVC:DEU30, то знайте, это он 
       
+    - symbols: ["TWSE:.*"] 
+      expiration_utc: "2019-02-09 07:00:00" # Chinese New Year
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
+      
     - symbols: ["OANDA:.*"]
       expiration_utc: "2019-01-23 05:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
