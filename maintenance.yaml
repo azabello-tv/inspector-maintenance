@@ -30,7 +30,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
       
     - symbols: ["HOSE:.*"]
-      expiration_utc: "2019-02-05 05:00:00"                          # National Day  
+      expiration_utc: "2019-02-11 05:00:00"                          # National Day  
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["FOREXCOM:.*"]
