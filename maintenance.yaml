@@ -611,3 +611,7 @@ maintenance_list:
     - symbols: ["MOEX:.*","BVC:.*","EGX:.*"]
       dates: ["2019-01-07"]
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+      
+    - symbols: ["CME:6A.*"]
+      expiration_utc: "2019-03-01 08:00:00"
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
