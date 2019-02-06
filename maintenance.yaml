@@ -381,6 +381,10 @@ maintenance_list:
     - symbols: ["SSE:.*"]
       breaks: ["1130-1300"] # ежедневный перерыв на ланч
       disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["TSE:.*"]
+      breaks: ["1130-1230"] # ежедневный перерыв на ланч
+      disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["MOEX:.*"]
       breaks: ["1359-1405","1845-1900"] # перерывы для фьючерсов
