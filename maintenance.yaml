@@ -331,8 +331,8 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["GOCIO:LTCUSD"]
-      expiration_utc: "2019-01-07 20:00:00"
-      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
+      expiration_utc: "2019-02-21 20:00:00"
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
     - symbols: ["XCOIN:BTCKRW"]
       expiration_utc: "2018-08-14 19:00:00"
