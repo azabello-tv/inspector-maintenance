@@ -330,7 +330,7 @@ maintenance_list:
       expiration_utc: "2018-06-05 19:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
-    - symbols: ["GOCIO:LTCUSD"]
+    - symbols: ["GOCIO:LTCUSD.*"]
       expiration_utc: "2019-02-21 20:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
