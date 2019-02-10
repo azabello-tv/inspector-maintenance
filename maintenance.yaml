@@ -510,6 +510,14 @@ maintenance_list:
       expiration_utc: "2018-12-31 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"] 
     
+    - symbols: ["IBROKER:LIG2019.*"]
+      expiration_utc: "2019-02-11 10:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"] 
+
+    - symbols: ["IBROKER:VIXG2019.*"]
+      expiration_utc: "2019-02-11 10:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"] 
+
     - symbols: ["IBROKER:.*"]
       expiration_utc: "2019-02-10 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"] 
