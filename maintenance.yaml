@@ -5,6 +5,10 @@ maintenance_list:
       dates: ["2018-04-02", "2018-05-01","2018-12-25","2018-12-26"]
       disable: ["realtime_test", "realtime_test_slow"]
 
+    - symbols: ["FX:EURUSD","FX_IDC:EURUSD","NASDAQ:MSFT","NYSE:A","CME_MINI:ES1!","CME_MINI_DL:ES1!","NYMEX:NG1!","CBOT_MINI:YM1!"]
+      expiration_utc: "2019-02-19 00:07:00" # USA holiday
+      disable: ["realtime_test", "realtime_test_slow"]
+
     - symbols: ["BVL:SPBLPGPT"]
       dates: ["2018-11-02"]
       disable: ["realtime_test", "realtime_test_slow"]
