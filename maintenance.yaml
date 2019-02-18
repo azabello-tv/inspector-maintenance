@@ -6,7 +6,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["FX:.*","FX_IDC:.*","OANDA:.*","FOREXCOM:.*","TVC:.*","BATS:MSFT","NASDAQ:MSFT","NYSE:A","CME_MINI:ES1!","CME_MINI_DL:ES1!","NYMEX:NG1!","CBOT_MINI:YM1!"]
-      expiration_utc: "2019-02-19 07:00:00" # USA holiday
+      expiration_utc: "2019-02-19 09:00:00" # USA holiday
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["TVC:.*"]
