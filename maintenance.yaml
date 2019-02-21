@@ -313,6 +313,10 @@ maintenance_list:
     - symbols: ["TASE:.*"]
       breaks: ["1410-1430"] # периодически редкие торги
       disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["EURONEXT:N150"]
+      breaks: ["1658-2000"] # в стримминге прилетает в 17:00 на бар больше, чем в истории
+      disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["TASE:FRUT"]
       expiration_utc: "2018-10-05 06:10:00"
