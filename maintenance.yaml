@@ -211,7 +211,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]  
       
     - symbols: ["GOCIO:LTCBTC"]
-      expiration_utc: "2018-10-03 18:10:00"
+      expiration_utc: "2019-02-25 08:10:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]  
 
     - symbols: ["BITHUMB:.*"]
