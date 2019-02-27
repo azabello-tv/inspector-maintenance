@@ -351,7 +351,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
     - symbols: ["HITBTC:DOGEUSD.*"]
-      expiration_utc: "2019-02-18 06:10:00"
+      expiration_utc: "2019-02-27 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]
 
     - symbols: ["HITBTC:WAVESUSD"]
