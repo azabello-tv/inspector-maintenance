@@ -235,7 +235,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["POLONIEX:*"]
-      expiration_utc: "2018-10-04 06:10:00"
+      expiration_utc: "2019-03-02 00:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
       
     - symbols: ["KRAKEN:ICNUSD"]
