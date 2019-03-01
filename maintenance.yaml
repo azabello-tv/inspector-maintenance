@@ -361,6 +361,10 @@ maintenance_list:
     - symbols: ["SP:.*"]
       expiration_utc: "2018-12-26 09:10:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
+    
+    - symbols: ["ITBIT:BTCUSD"]
+      expiration_utc: "2018-03-04 09:10:00"
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
     - symbols: ["BINANCE:*"]
       expiration_utc: "2018-10-18 16:20:00"
