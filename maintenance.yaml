@@ -563,3 +563,7 @@ maintenance_list:
     - symbols: ["IDX:.*"]
       expiration_utc: "2019-03-07 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
+
+    - symbols: ["ITBIT:BTCUS.*"]
+      expiration_utc: "2019-03-17 07:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
