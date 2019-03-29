@@ -568,7 +568,7 @@ maintenance_list:
       expiration_utc: "2019-03-17 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
       
-    - symbols: ["MIL:FTSEMIB", "MIL:ITLMS", "MIL:IT2000"]
+    - symbols: ["MIL:FTSEMIB", "MIL:ITLMS", "MIL:IT2000"] # BS-5634
       expiration_utc: "2019-06-01 00:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
       
