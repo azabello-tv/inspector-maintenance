@@ -572,11 +572,7 @@ maintenance_list:
       expiration_utc: "2019-06-01 00:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
       
-    - symbols: ["CME_MINI:ES.*"]
-      expiration_utc: "2019-04-20 08:00:00"
-      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
-
-    - symbols: ["CME_MINI:NQ.*"]
+    - symbols: ["CME_MINI:.*","CME_MINI_DL:.*"]
       expiration_utc: "2019-04-20 08:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
       
@@ -584,7 +580,7 @@ maintenance_list:
       expiration_utc: "2019-04-20 08:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
     
-    - symbols: ["NYMEX:NG.*"]
+    - symbols: ["NYMEX:.*"]
       expiration_utc: "2019-04-20 08:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
 
