@@ -595,3 +595,8 @@ maintenance_list:
     - symbols: ["EURONEXT:.*","LSE:.*","OMXNORDIC:.*","OMX.*:.*","HKEX:.*","BME:.*","XETR:.*","SWB:.*","FWB:.*","NZX:.*","ASX:.*","SIX:.*","GPW:.*","NSENG:.*",]
       expiration_utc: "2019-04-23 00:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+      
+    - symbols: ["TVC:SPX"]
+      expiration_utc: "2019-04-23 08:00:00"
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+    
