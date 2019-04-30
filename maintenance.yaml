@@ -521,7 +521,7 @@ maintenance_list:
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
       
     - symbols: ["OMXSTO:.*"]
-      expiration_utc: "2019-04-23 07:00:00"
+      expiration_utc: "2019-05-01 09:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
       
     - symbols: ["BITSTAMP:BTCUSD","BITFINEX:BTCUSD","KRAKEN:XBTEUR","OKCOIN:BTCUSD","FX:EURUSD","FX_IDC:EURUSD","BATS:MSFT","NASDAQ:MSFT","NYSE:A","CME_MINI:ES1!","CME_MINI_DL:ES1!","NYMEX:NG1!","CBOT_MINI:YM1!","POLONIEX:ETHBTC","COINBASE:BTCSD"]
