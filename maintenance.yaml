@@ -423,7 +423,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
     
     - symbols: ["SET:.*"]
-      expiration_utc: "2018-10-24 09:00:00"
+      dates: ["2019-05-06"]
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]  
       
     - symbols: ["IBROKER:GOOGL_CFD.*"]
