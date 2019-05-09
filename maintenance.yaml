@@ -82,7 +82,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
 
     - symbols: ["CBOT:.*"]
-      expiration_utc: "2019-05-09 11:00:00"
+      expiration_utc: "2019-05-10 10:00:00"
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
 
     - symbols: ["FX:.*"]
