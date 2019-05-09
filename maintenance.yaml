@@ -458,6 +458,10 @@ maintenance_list:
       expiration_utc: "2019-05-10 10:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"] 
 
+    - symbols: ["COMEX_MINI:.*"]
+      expiration_utc: "2019-05-10 10:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"] 
+
     - symbols: ["BVC:IGBC"]
       dates:   ["2019-05-01"]
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
