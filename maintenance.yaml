@@ -453,6 +453,10 @@ maintenance_list:
     - symbols: ["IBROKER:.*"]
       expiration_utc: "2019-05-31 10:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"] 
+    
+    - symbols: ["COMEX:.*"]
+      expiration_utc: "2019-05-11 10:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"] 
 
     - symbols: ["BVC:IGBC"]
       dates:   ["2019-05-01"]
