@@ -97,6 +97,10 @@ maintenance_list:
       expiration_utc: "2018-07-15 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
+    - symbols: ["CSE:.*"]
+      expiration_utc: "2019-05-21 13:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
+
     - symbols: ["CEXIO:GHSUSD"]
       expiration_utc: "2018-11-26 18:00:00"
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
