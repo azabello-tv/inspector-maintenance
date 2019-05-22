@@ -592,8 +592,8 @@ maintenance_list:
 #      expiration_utc: "2019-04-20 08:00:00"
 #      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
 
-    - symbols: ["CSE:CSE25"]
-      expiration_utc: "2019-04-20 08:00:00"
+    - symbols: ["BINANCE:PHX.*"]
+      expiration_utc: "2019-04-24 04:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
     
     - symbols: ["EURONEXT:.*","LSE:.*","OMXNORDIC:.*","OMX.*:.*","HKEX:.*","BME:.*","XETR:.*","SWB:.*","FWB:.*","NZX:.*","ASX:.*","SIX:.*","GPW:.*","NSENG:.*",]
