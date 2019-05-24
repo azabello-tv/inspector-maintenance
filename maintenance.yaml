@@ -345,6 +345,10 @@ maintenance_list:
     - symbols: ["EURONEXT:N150"]
       breaks: ["1658-2000"] # в стримминге прилетает в 17:00 на бар больше, чем в истории
       disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["SAXO:EURUSD", "SAXO:GBPUSD", "SAXO:USDJPY"]
+      breaks: ["1659-1704"] # перерывы между сессиями
+      disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["TASE:.*", "TASE_DLY:.*"]
       expiration_utc: "2019-04-10 06:20:00"
