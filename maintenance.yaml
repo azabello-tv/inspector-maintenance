@@ -633,5 +633,5 @@ maintenance_list:
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
     
     - symbols: ["COMEX_MINI:GR.*"]
-      expiration_utc: "2019-04-23 08:00:00"
+      expiration_utc: "2019-05-28 08:00:00"
       disable: ["symbol_search_test"]
