@@ -425,6 +425,10 @@ maintenance_list:
     - symbols: ["EGX:.*"]
       expiration_utc: "2018-11-21 00:00:00"
       disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]
+      
+    - symbols: ["EGX:EGX70"]
+      expiration_utc: "2019-05-28 00:06:30"
+      disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]    
 
     - symbols: ["BIST:.*"]
       expiration_utc: "2018-08-25 07:00:00"
