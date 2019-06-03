@@ -602,7 +602,7 @@ maintenance_list:
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
 
     - symbols: ["IDX:.*"]
-      expiration_utc: "2019-05-31 06:00:00"
+      expiration_utc: "2019-06-05 02:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
 
     - symbols: ["ITBIT:BTCUS.*"]
