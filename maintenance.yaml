@@ -455,7 +455,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]
     
     - symbols: ["SET:.*"]
-      dates: ["2019-05-06"]
+      dates: ["2019-06-03"]
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "quote_test"]  
       
     - symbols: ["IBROKER:GOOGL_CFD.*"]
