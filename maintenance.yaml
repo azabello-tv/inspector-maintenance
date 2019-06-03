@@ -648,3 +648,7 @@ maintenance_list:
     - symbols: ["IBROKER:ZB.*"]
       expiration_utc: "2019-07-01 09:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+    
+    - symbols: ["BMFBOVESPA:MRFG3"] #https://tradingview.slack.com/archives/C0PSLSK4P/p1559582424153300
+      expiration_utc: "2019-06-04 09:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "quote_test"]
