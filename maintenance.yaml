@@ -242,6 +242,10 @@ maintenance_list:
       expiration_utc: "2018-11-30 11:30:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
+    - symbols: ["BITHUMB:.*"]
+      expiration_utc: "2019-6-12 16:30:00"
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
+      
     - symbols: ["BITTREX:DASHUSD"]
       expiration_utc: "2018-09-01 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
