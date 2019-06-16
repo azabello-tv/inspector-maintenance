@@ -86,7 +86,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
 
     - symbols: ["POLONIEX:ETH.*"]
-      expiration_utc: "2019-06-17 09:30:00"
+      expiration_utc: "2019-06-16 09:30:00"
       disable: ["realtime_test", "realtime_test_slow", "udf_realtime_test", "fxcm_realtime_test","fxcm_realtime_test", "history_test"]
 
     - symbols: ["FX:.*"]
