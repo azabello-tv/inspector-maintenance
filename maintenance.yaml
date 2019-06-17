@@ -625,8 +625,8 @@ maintenance_list:
       expiration_utc: "2019-07-01 00:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
       
-    - symbols: ["CME_MINI:ES1!","CME_MINI_DL:ES1!"]
-      expiration_utc: "2019-06-17 08:00:00"
+    - symbols: ["CME:A6.*","CME:E6.*"]
+      expiration_utc: "2019-06-18 10:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
       
     - symbols: ["CBOT_MINI:.*"]
