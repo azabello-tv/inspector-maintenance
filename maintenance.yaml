@@ -673,6 +673,6 @@ maintenance_list:
       expiration_utc: "2019-06-17 12:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
       
-     - symbols: ["CEXIO:*"] #https://tradingview.slack.com/archives/C0PSLSK4P/p1561376909180000
+    - symbols: ["CEXIO:*"] #https://tradingview.slack.com/archives/C0PSLSK4P/p1561376909180000
       expiration_utc: "2020-06-25 12:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]     
