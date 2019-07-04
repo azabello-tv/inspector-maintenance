@@ -301,6 +301,10 @@ maintenance_list:
     - symbols: ["TVC:RUI"]
       expiration_utc: "2018-06-19 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]
+      
+    - symbols: ["TVC:US10Y"]
+      expiration_utc: "2018-07-04 08:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test"]      
 
     - symbols: ["THEROCKTRADING:BTCEUR"]
       expiration_utc: "2018-06-08 09:00:00"
