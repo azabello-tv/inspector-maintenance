@@ -430,7 +430,7 @@ maintenance_list:
       expiration_utc: "2018-08-24 07:00:00"
       disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]
 
-    - symbols: ["OMXICE:OMXI10*"]
+    - symbols: ["OMXICE:OMXI10"]
       expiration_utc: "2019-07-06 07:00:00"
       disable: ["history_test", "fxcm_history_test", "udf_history_test"]
 
