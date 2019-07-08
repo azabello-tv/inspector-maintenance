@@ -431,7 +431,11 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]
 
     - symbols: ["OMXICE:OMX.*"]
-      expiration_utc: "2019-07-08 07:00:00"
+      expiration_utc: "2019-07-09 07:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]
+      
+    - symbols: ["OMXICE:OMXI10.*"]
+      expiration_utc: "2019-07-09 08:00:00"
       disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]
 
     - symbols: ["EGX:.*"]
