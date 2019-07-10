@@ -20,6 +20,10 @@ maintenance_list:
     - symbols: ["TWSE:.*"] 
       expiration_utc: "2019-02-09 07:00:00" # Chinese New Year
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
+      
+    - symbols: ["BTCYOU:BTCBRL.*"] 
+      expiration_utc: "2019-07-11 08:00:00" # https://tradingview.slack.com/archives/C0PSLSK4P/p1562768861444100?thread_ts=1562764476.435200&cid=C0PSLSK4P
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]      
 
     - symbols: ["BMFBOVESPA:PETR4"] 
       expiration_utc: "2019-03-04 16:00:00" # Brazil holiday
