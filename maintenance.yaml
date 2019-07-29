@@ -357,6 +357,10 @@ maintenance_list:
     - symbols: ["SAXO:EURUSD", "SAXO:GBPUSD", "SAXO:USDJPY"]
       breaks: ["1659-1704"] # перерывы между сессиями
       disable: ["realtime_test", "realtime_test_slow"]
+      
+    - symbols: ["CRYPTOINDEX:CIX100"]
+      breaks: ["2229-2300","2229-2359:5","0000-2359:6","0000-2300:7"] # паузы в расчетах
+      disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["TASE:.*", "TASE_DLY:.*"]
       expiration_utc: "2019-04-10 06:20:00"
