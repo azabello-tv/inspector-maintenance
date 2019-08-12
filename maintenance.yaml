@@ -366,6 +366,10 @@ maintenance_list:
       breaks: ["1340-1400"] # паузы в расчетах
       disable: ["realtime_test", "realtime_test_slow"]
 
+    - symbols: ["FX_IDC:EURSEK"]
+      breaks: ["2059-2200:5"] # паузы в расчетах по пятницам
+      disable: ["realtime_test", "realtime_test_slow"]
+
     - symbols: ["TASE:.*", "TASE_DLY:.*"]
       expiration_utc: "2019-04-10 06:20:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
