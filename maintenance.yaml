@@ -1,7 +1,7 @@
 ---
 
 maintenance_list:
-    - symbols: ["COMEX_MINI:QOQ2019.*"]
+    - symbols: ["COMEX_MINI:QOQ2019.*","CME_MINI:RS1U2019"]
       expiration_utc: "2019-08-14 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
