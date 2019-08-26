@@ -371,7 +371,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["FX_IDC:EURSEK"]
-      breaks: ["2059-2200:5"] # паузы в расчетах по пятницам
+      breaks: ["2059-2200:6"] # паузы в расчетах по пятницам
       disable: ["realtime_test", "realtime_test_slow"]
 
     - symbols: ["TASE:.*", "TASE_DLY:.*"]
