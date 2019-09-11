@@ -725,3 +725,7 @@ maintenance_list:
     - symbols: ["HKEX:.*"]
       expiration_utc: "2019-07-31 12:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+
+    - symbols: ["FX_ESP35", "FX_FRA40", "FX_BUND"]
+      breaks: ["1800-0600"]
+      disable: ["realtime_test"]
