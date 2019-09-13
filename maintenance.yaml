@@ -727,5 +727,5 @@ maintenance_list:
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
 
     - symbols: ["FX:ESP35", "FX:FRA40", "FX:BUND"]
-      breaks: ["0000-0600", "1800-2359"]
-      disable: ["realtime_test"]
+      breaks: ["1800-2359", "0000-0600"]
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
