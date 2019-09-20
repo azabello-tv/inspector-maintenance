@@ -18,10 +18,6 @@ maintenance_list:
       expiration_utc: "2020-08-14 11:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
-    - symbols: ["IBROKER:FDAXU2019"]
-      expiration_utc: "2020-10-24 07:00:00"
-      disable: ["realtime_test", "realtime_test_slow", "history_test", "fxcm_history_test", "udf_realtime_test", "fxcm_realtime_test"]
-
     - symbols: ["EURONEXT:.*"]
       dates: ["2018-04-02", "2018-05-01","2018-12-25","2018-12-26"]
       disable: ["realtime_test", "realtime_test_slow"]
