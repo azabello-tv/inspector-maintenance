@@ -41,7 +41,11 @@ maintenance_list:
     - symbols: ["BMFBOVESPA:PETR4"] 
       expiration_utc: "2019-03-04 16:00:00" # Brazil holiday
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
-      
+
+    - symbols: ["BXTH:BTCTHB"] 
+      expiration_utc: "2019-10-15 10:00:00" # https://tradingview.slack.com/archives/C0PSLSK4P/p1571101590096300?thread_ts=1571101476.096200&cid=C0PSLSK4P
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
+
     - symbols: ["OANDA:.*"]
       expiration_utc: "2019-01-23 05:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
