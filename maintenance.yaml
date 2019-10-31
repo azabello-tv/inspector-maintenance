@@ -754,8 +754,3 @@ maintenance_list:
       expiration_utc: "2019-11-04 09:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
     
-    - symbols: ["BITFINEX:PROUS.*"]
-      expiration_utc: "2019-11-04 09:00:00"
-      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
-    
-    
