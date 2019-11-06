@@ -12,7 +12,7 @@ maintenance_list:
       breaks: ["1130-1300"] # ежедневный перерыв на ланч
       disable: ["realtime_test", "realtime_test_slow"]
       
-    - symbols: ["CME_MINI:ES1!"]
+    - symbols: ["CME_MINI:ES.*","CME_MINI:RTY.*","CME_MINI:NQ.*"]
       breaks: ["1515-1530"] # ежедневный перерыв 
       disable: ["realtime_test", "realtime_test_slow", "realtime_test_seconds"]
 
