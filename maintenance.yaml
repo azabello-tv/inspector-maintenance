@@ -174,7 +174,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
 
     - symbols: ["BITFLYER:*"]
-      expiration_utc: "2018-12-11 00:00:00"
+      expiration_utc: "2019-11-12 00:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test"]
       
     - symbols: ["BITFLYER:ETHUSD"]
