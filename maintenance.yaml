@@ -270,7 +270,11 @@ maintenance_list:
     - symbols: ["IBROKER:DX.*", "IBROKER:LI.*"]
       expiration_utc: "2020-06-15 12:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
-      
+
+    - symbols: ["IBROKER:.*"]
+      expiration_utc: "2019-11-11 12:00:00"
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+
     - symbols: ["OMXCOP:.*", "OMXHEX:.*", "OMXSTO:.*", "OMXNORDIC:.*", "OMXBALTIC:.*", "OMXRSE:.*", "OMXICE:.*", "OMXVSE:.*", "OMXTSE:.*"] #https://tradingview.slack.com/archives/C0PSLSK4P/p1560758245441800
       expiration_utc: "2019-06-17 12:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
