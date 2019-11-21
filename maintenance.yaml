@@ -224,10 +224,6 @@ maintenance_list:
     - symbols: ["POLONIEX:NMC.*"]
       expiration_utc: "2019-05-27 09:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
-      
-    - symbols: ["KRAKEN:ICNUSD"]
-      expiration_utc: "2018-12-05 06:10:00"
-      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
     - symbols: ["POLONIEX:XEMUSD"]
       expiration_utc: "2019-06-26 19:00:00"
@@ -271,10 +267,6 @@ maintenance_list:
       expiration_utc: "2020-06-15 12:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
 
-    - symbols: ["IBROKER:.*"]
-      expiration_utc: "2019-11-11 12:00:00"
-      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
-
     - symbols: ["OMXCOP:.*", "OMXHEX:.*", "OMXSTO:.*", "OMXNORDIC:.*", "OMXBALTIC:.*", "OMXRSE:.*", "OMXICE:.*", "OMXVSE:.*", "OMXTSE:.*"] #https://tradingview.slack.com/archives/C0PSLSK4P/p1560758245441800
       expiration_utc: "2019-06-17 12:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
@@ -291,7 +283,7 @@ maintenance_list:
       expiration_utc: "2019-11-12 15:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
       
-    - symbols: ["GPW:WIG20"]
+    - symbols: ["GPW:WIG20", "GPW:WIG"]
       expiration_utc: "2019-11-22 06:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
     
