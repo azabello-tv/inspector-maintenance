@@ -60,6 +60,10 @@ maintenance_list:
       breaks: ["2059-2200:6"] # паузы в расчетах по пятницам
       disable: ["realtime_test", "realtime_test_slow"]
       
+    - symbols: ["GPW:WIG", "GPW:WIG20"]
+      breaks: ["1650-1720"] # в конце сессии не расчитывается
+      disable: ["realtime_test", "realtime_test_slow"]
+      
     # Perpetual night maintenance for IBROKER futures
     - symbols: ["IBROKER:VIX.*","IBROKER:ZB.*","IBROKER:YM.*","IBROKER:ZS.*","IBROKER:URO.*","IBROKER:CL.*","IBROKER:ES.*","IBROKER:HG.*","IBROKER:FDAX.*","IBROKER:DX.*","IBROKER:LI.*","IBROKER:IX.*"] 
       breaks: ["1800-2359", "0000-0900"]
