@@ -6,7 +6,7 @@ maintenance_list:
       dates: ["2019-09-03", "2019-11-27", "2019-11-29", "2019-12-24", "2019-12-25", "2019-12-26", "2019-11-28", "2019-12-31", "2020-01-01", "2020-01-02"]
       disable: ["realtime_test", "realtime_test_seconds", "realtime_test_slow"]
       
-    - symbols: ["INDEX:ENTREPRENE"] # because no corrections
+    - symbols: ["INDEX:ENTREPRENER", "DJCFD:.*", "SPCFD:.*"] # because no corrections
       dates: ["2019-11-29"]
       disable: ["realtime_test", "realtime_test_seconds", "realtime_test_slow"]
       
