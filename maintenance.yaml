@@ -10,6 +10,11 @@ maintenance_list:
       dates: ["2019-11-29"]
       disable: ["realtime_test", "realtime_test_seconds", "realtime_test_slow"]
       
+    - symbols: ["INDEX:ENTREPRENEUR", "DJCFD:.*", "SPCFD:.*", "DJ:.*", "SP:.*"] # because no corrections
+      expiration_utc: "2019-11-30 10:00:00"     
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test", "realtime_test_seconds"]
+
+
 #------------regular breaks begin-------------
     
     - symbols: ["HOSE:.*"]
