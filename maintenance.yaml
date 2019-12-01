@@ -300,4 +300,6 @@ maintenance_list:
       expiration_utc: "2019-11-22 06:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
 
-
+    - symbols: ["BVC:IGBC.**"]
+      expiration_utc: "2019-12-02 12:00:00"
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
