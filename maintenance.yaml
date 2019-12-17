@@ -305,6 +305,6 @@ maintenance_list:
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
 
        # other
-    - symbols: ["BTCYOU:BTCBRL"] # https://tradingview.slack.com/archives/C0PSLSK4P/p1576371024047000
-      expiration_utc: "2019-12-16 06:00:00"
+    - symbols: ["BTCYOU:BTCBRL"] # https://tradingview.slack.com/archives/C0PSLSK4P/p1576371024047000 
+      expiration_utc: "2020-01-30 10:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]  
