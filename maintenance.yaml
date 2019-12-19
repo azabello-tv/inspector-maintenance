@@ -78,6 +78,10 @@ maintenance_list:
       breaks: ["1800-2359", "0000-0900"]
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
       
+    - symbols: ["IBROKER:EURUSD_MEFF"]
+      breaks: ["2300-0000", "0000-0005"] # паузы в расчетах каждый день
+      disable: ["realtime_test", "realtime_test_slow"]      
+      
 #------------regular breaks end------------
       
     - symbols: ["BITFINEX:OKBBTC"]
