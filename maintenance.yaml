@@ -11,7 +11,7 @@ maintenance_list:
       disable: ["realtime_test", "realtime_test_seconds", "realtime_test_slow"]
       
     - symbols: ["INDEX:ENTREPRENEUR", "DJCFD:.*", "SPCFD:.*", "DJ:.*", "SP:.*"] # because no corrections
-      expiration_utc: "2019-11-30 10:00:00"     
+      dates: ["2019-09-03", "2019-11-27", "2019-11-29", "2019-12-24", "2019-12-25", "2019-12-26", "2019-11-28", "2019-12-31", "2020-01-01", "2020-01-02"]     
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test", "realtime_test_seconds"]
 
 
