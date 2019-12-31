@@ -100,6 +100,11 @@ maintenance_list:
       expiration_utc: "2019-11-30 10:00:00"
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
 
+    - symbols: ["NYMEX:UXF2020.*"]
+      expiration_utc: "2020-01-30 10:00:00"
+      disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
+
+
     - symbols: ["FOREXCOM:.*"]
       dates: ["2019-01-02"]                               # US Labor Day  
       disable: ["realtime_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test"]
