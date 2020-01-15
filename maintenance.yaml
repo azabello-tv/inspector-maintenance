@@ -325,3 +325,7 @@ maintenance_list:
     - symbols: ["IBROKER:MESH2020", "IBROKER:MYMH2020"]
       expiration_utc: "2019-12-26 09:00:00"
       disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
+
+    - symbols: ["IBROKER:EURUSD_MEFF"]
+      expiration_utc: "2020-01-16 00:00:00"
+      disable: ["realtime_test", "symbol_search_test", "realtime_test_slow", "fxcm_realtime_test", "history_test", "udf_history_test", "fxcm_history_test", "quote_test"]
