@@ -17,6 +17,10 @@ maintenance_list:
 
 #------------regular breaks begin-------------
     
+    - symbols: ["CRYPTOCAP:BTC"]
+      breaks: ["0000-0600"] # из-за частых мейнтенансов на GEMINI:BTCUSD
+      disable: ["realtime_test", "realtime_test_slow"]
+
     - symbols: ["HOSE:.*"]
       breaks: ["1130-1300"] # ежедневный перерыв на ланч
       disable: ["realtime_test", "realtime_test_slow"]
